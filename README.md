@@ -15,7 +15,7 @@ Production-oriented decision-intelligence platform for ingesting business data a
 ### [AI Sustainability Dashboard](https://github.com/stanleymay20/ai_sustainability_dashboard)
 Python/Streamlit analytics application combining external APIs, time-series analysis, clustering and interactive visualisation.
 
-**Evidence:** Python, Pandas, NumPy, REST APIs, Plotly, Folium, scikit-learn, statsmodels, data transformation and geospatial visualisation.  
+**Evidence:** Python, Pandas, REST APIs, Plotly, Folium, scikit-learn, statsmodels, data transformation and geospatial visualisation.  
 **Live:** https://aisustainabilitydashboard.streamlit.app/
 
 ### [Business Intelligence & Data Storytelling](https://github.com/stanleymay20/Data-Storytelling-with-Google-Data-Studio)
