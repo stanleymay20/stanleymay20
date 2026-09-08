@@ -6,6 +6,8 @@ I build data and AI systems that turn fragmented information into **validated an
 
 A recurring theme across my work is simple: **make the evidence visible before making the recommendation.**
 
+**Curated evidence:** [Data & AI for Development — Portfolio Evidence](DEVELOPMENT_DATA_PORTFOLIO.md)
+
 ## Flagship projects
 
 ### [EU Innovation, AI & Energy Analytics](https://github.com/stanleymay20/forecasting-system)
