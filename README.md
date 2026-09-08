@@ -1,46 +1,57 @@
 # Stanley Osei-Wusu
 
-**Data Science & AI | Python | SQL | Analytics | Machine Learning | Data Products**
+**Data Science & AI | Decision Intelligence | Sustainable Development | Python | SQL**
 
-I build data and AI systems that turn messy information into usable analysis, dashboards, predictions and decision support. My work spans multi-source data integration, data quality, analytics engineering, machine learning, API-driven applications and AI-assisted products.
+I build data and AI systems that turn fragmented information into **validated analysis, forecasts and decision support**. My portfolio spans institutional datasets, environmental analytics, data-quality engineering, machine learning, multi-agent systems and production-oriented AI applications.
 
-## Featured projects
+A recurring theme across my work is simple: **make the evidence visible before making the recommendation.**
+
+## Flagship projects
 
 ### [EU Innovation, AI & Energy Analytics](https://github.com/stanleymay20/forecasting-system)
-Multi-source European analytics project integrating Eurostat, OECD and World Bank indicators across 10 economies.
+Reproducible multi-source analysis integrating **Eurostat, OECD and World Bank** indicators across 10 European economies to study AI adoption, innovation capacity, renewable-energy transition and structural economic context.
 
-**Evidence:** Python, Pandas, data cleaning, joins/merges, coverage validation, missingness analysis, longitudinal indicators, KPI design, automated data-quality tests and reproducible analytics.
+**Evidence:** Python · Pandas · multi-source joins · longitudinal indicators · missingness/coverage analysis · data-quality tests · reproducible policy-oriented analytics
+
+**Development relevance:** SDG 7 · SDG 8 · SDG 9 · SDG 13
 
 ### [AI Sustainability Dashboard](https://github.com/stanleymay20/ai_sustainability_dashboard)
-Python/Streamlit analytics application combining external APIs, time-series analysis, clustering and interactive visualisation.
+Python/Streamlit environmental analytics application combining external APIs, PM2.5 time-series analysis, forecasting, exploratory geospatial clustering, carbon-intensity data and EV-infrastructure discovery.
 
-**Evidence:** Python, Pandas, REST APIs, Plotly, Folium, scikit-learn, statsmodels, data transformation and geospatial visualisation.  
+**Evidence:** Python · Pandas · REST APIs · statsmodels · scikit-learn · Plotly · Folium · defensive API/data handling  
 **Live:** https://aisustainabilitydashboard.streamlit.app/
 
-### [Quantivis — Decision Intelligence Platform](https://github.com/stanleymay20/quantisights-pro-c6abd242)
-Production-oriented decision-intelligence platform for ingesting business data and turning it into operational and executive insights.
+**Development relevance:** SDG 3 · SDG 7 · SDG 11 · SDG 13
 
-**Evidence:** PostgreSQL/SQL, Supabase, data ingestion, schema inference, validation, dataset diagnostics, KPI workflows, data-quality controls, forecasting and decision support.  
+### [AICIS — Resilience & Risk Decision Support](https://github.com/stanleymay20/aicis-divine-core-6d24171b)
+Applied AI/data-engineering platform exploring evidence provenance, early-warning analysis, governance workflows and human-reviewed decision support across socioeconomic, climate, infrastructure and institutional risks.
+
+**Evidence:** React/TypeScript · PostgreSQL/Supabase · realtime data architecture · RLS · Edge Functions · governance workflows · evidence/provenance hardening
+
+**Development relevance:** resilience · governance · climate risk · institutional decision support · SDG 9 · SDG 11 · SDG 13 · SDG 16
+
+### [Quantivis — Decision Intelligence Platform](https://github.com/stanleymay20/quantisights-pro-c6abd242)
+Production-oriented platform for ingesting messy operational data, validating it and transforming it into analytical outputs, forecasts and structured decision support.
+
+**Evidence:** PostgreSQL/SQL · Supabase · schema inference · ingestion · validation · quality scoring · forecasting · multi-tenant workflows · CI/release controls  
 **Live:** https://www.quantivis.io
 
-### [Business Intelligence & Data Storytelling](https://github.com/stanleymay20/Data-Storytelling-with-Google-Data-Studio)
-Dashboard portfolio built around operational, customer and retail datasets.
+**Transferable development relevance:** SME/programme analytics · economic indicators · data-quality assessment · SDG 8 · SDG 9 · SDG 10
 
-**Evidence:** Looker Studio, data cleaning, KPI design, dashboard development, business analysis and data storytelling.
+## Additional work
 
-## Supporting machine-learning work
-
+- [Business Intelligence & Data Storytelling](https://github.com/stanleymay20/Data-Storytelling-with-Google-Data-Studio)
 - [Diabetes Prediction — EDA & Classification](https://github.com/stanleymay20/diabetes_prediction)
 - [House Price Prediction — Regression Model Comparison](https://github.com/stanleymay20/machine-learniing)
 
 ## Current focus
 
-- Python and SQL for analytical workflows
-- Multi-source data integration and quality validation
-- Business intelligence and decision-support dashboards
-- Machine learning and statistical modelling
-- Reproducible analytics and automated quality checks
-- LLM/API integration and intelligent workflow automation
+- data for evidence-based decision-making;
+- multi-source institutional data integration;
+- data quality, provenance and analytical reproducibility;
+- AI-assisted decision-support systems with human review;
+- sustainable-development and economic-transformation analytics;
+- responsible deployment, security and governance of AI/data products.
 
 ## Education
 
@@ -49,4 +60,4 @@ Currently pursuing postgraduate study alongside applied data and AI projects.
 
 ---
 
-I am especially interested in roles where strong analysis, reliable data pipelines and practical AI can improve real operational decisions.
+I am especially interested in work where rigorous data analysis, responsible AI and practical engineering can support better economic, environmental and institutional decisions.
