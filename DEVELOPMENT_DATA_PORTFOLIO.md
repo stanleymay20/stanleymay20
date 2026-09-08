@@ -6,7 +6,8 @@ The emphasis is on **evidence, reproducibility and decision support**. SDG refer
 
 ## 1. EU Innovation, AI & Energy Analytics
 
-**Repository:** https://github.com/stanleymay20/forecasting-system
+**Repository:** https://github.com/stanleymay20/forecasting-system  
+**Policy brief:** https://github.com/stanleymay20/forecasting-system/blob/main/policy_briefs/AI_INNOVATION_ENERGY_TRANSITION_EU_2026.md
 
 **Problem:** How can AI adoption, innovation investment, renewable-energy transition and economic capacity be compared across countries without hiding differences in source coverage and reporting periods?
 
@@ -19,7 +20,8 @@ The emphasis is on **evidence, reproducibility and decision support**. SDG refer
 - unique-key and expected-member validation;
 - reusable quality-control functions;
 - automated tests and CI;
-- explicit evidence boundaries before final numerical publication.
+- explicit evidence boundaries before final numerical publication;
+- a September 2026 policy brief translating current official statistics into cautious, decision-oriented recommendations.
 
 **Relevant domains:** digital transformation · innovation policy · energy transition · economic development
 
@@ -109,7 +111,7 @@ Decision support — not automatic authority
 
 ## What I am strengthening next
 
-- policy-brief writing from reproducible analysis;
+- extend policy analysis beyond the European comparison with development-economy evidence;
 - larger authoritative datasets for environmental/geospatial work;
 - model validation and backtesting;
 - evidence provenance and responsible AI governance;
