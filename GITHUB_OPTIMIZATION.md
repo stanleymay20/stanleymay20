@@ -13,6 +13,14 @@ The objective is not to delete history. It is to make the account read like a co
 5. Do not restructure a branch while a controlled experiment is running.
 6. Public repositories should either demonstrate meaningful work or clearly state that they are historical/reference repositories.
 7. Private incubations do not need to compete for attention on the public profile.
+8. A family may be marked **VERIFIED** only after permanent read-only quality/security gates pass on the canonical repository and temporary write-enabled repair workflows have been removed.
+
+## Verified resolutions
+
+- `app-automarketer-891ef675` — **AutoMarketer — CANONICAL / RESOLVED / VERIFIED**. Permanent CI and dependency-security gates passed after the controlled dependency repair; temporary writer removed.
+- `adelaide-ledger-ai` — **Adelaide Ledger — CANONICAL / RESOLVED / VERIFIED**. Permanent CI passes locked install, lint, application/tooling TypeScript checks and production build. Permanent dependency audit passes locked install, direct dependency-tree validation, production audit and full-tree audit. The committed npm tree reports zero known vulnerabilities under both audit gates; temporary writer removed. Final cleanup head: `5d0fbcb46a84eee237bcab46794664775f1ab1a5`.
+
+A verified canonical does not automatically authorize archiving its siblings. Unique-history checks still apply.
 
 ## Portfolio tiers
 
@@ -47,7 +55,7 @@ These are worth keeping active, but should not crowd the profile landing page be
 - `DevStream-AI`
 - `scroll-engine-x`
 - `ai-payment-app`
-- `adelaide-ledger-ai`
+- `adelaide-ledger-ai` — **CANONICAL / RESOLVED / VERIFIED**
 - `scroll-justice-prophecy-ai-40`
 - `healthos-your-wellness-navigator`
 - `educhat-ai`
@@ -123,10 +131,9 @@ Compare `JobAutoPilot` and preserve any unique ATS-routing/application logic bef
 
 ### AutoMarketer
 
-Compare:
+Canonical: `app-automarketer-891ef675` — **RESOLVED / VERIFIED**.
 
-- `app-automarketer`
-- `app-automarketer-891ef675`
+`app-automarketer` remains a consolidation predecessor until its unique-history check is formally closed. Do not archive solely from the canonical decision.
 
 ### ScrollJustice
 
@@ -139,13 +146,15 @@ Compare:
 
 ### Adelaide finance
 
-Canonical candidate: `adelaide-ledger-ai`.
+Canonical: `adelaide-ledger-ai` — **RESOLVED / VERIFIED**.
 
-`AdelaideAccounts` is currently empty and `AdelaideAI` is near-empty; verify whether either contains unique history before deprecation.
+`AdelaideAccounts` is currently empty and `AdelaideAI` is near-empty; verify whether either contains unique history before deprecation. The canonical repository itself is now independently proven by permanent read-only CI and dependency-audit gates.
 
 ### News / summarization
 
 Compare `news-summarizer` with `text-summarization-news-aggregation`.
+
+Current evidence says they are overlapping but not yet safe to collapse: `news-summarizer` contains unique executable NewsAPI/Reuters notebook history, while `text-summarization-news-aggregation` is the cleaner modular implementation. Preserve both until the remaining unique-code check is complete.
 
 ### Academic duplicate
 
