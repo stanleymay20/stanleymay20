@@ -9,7 +9,7 @@ This registry is the public portfolio source of truth for project-family identit
 | AICIS | `aicis-divine-core-6d24171b` | **CANONICAL** | Preserve `AICIS-control` until component-vs-duplicate role is verified. |
 | Quantivis | `quantisights-pro-c6abd242` | **CANONICAL** | Generated suffix is naming debt, not a reason to move prematurely. |
 | ScrollLibrary | `scroll-wisdom-weave-d69aa349` | **CANONICAL** | Other `scroll-wisdom-weave*` repos require content/history comparison before deprecation. |
-| ScrollIntel | `scrollintel-ai-system` | **CANONICAL CANDIDATE** | Verify against `scroll-intel`; two other names are currently empty. |
+| ScrollIntel | `scrollintel-ai-system` | **CANONICAL / RESOLVED** | `scroll-intel` is explicitly retained as a superseded legacy prototype and points to the maintained successor, which contains the broader multi-agent platform, frontend/backend layers, deployment tooling, monitoring and tests. |
 | Apply Wingman | `apply-wingman` | **CANONICAL** | Compare `JobAutoPilot` for unique ATS/application logic before deprecation. |
 | AutoMarketer | `app-automarketer-891ef675` | **CANONICAL CANDIDATE** | Compare with `app-automarketer`. |
 | ScrollJustice | `scroll-justice-prophecy-ai-40` | **CANONICAL CANDIDATE** | Compare public predecessor and related justice repos before consolidation. |
