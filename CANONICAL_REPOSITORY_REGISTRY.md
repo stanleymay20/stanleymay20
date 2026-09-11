@@ -5,13 +5,13 @@ This registry is the public portfolio source of truth for project-family identit
 | Project family | Canonical / current target | Status | Notes |
 |---|---|---|---|
 | AgentShield | `demo-repo` | **FLAGSHIP / canonical identity pending** | Controlled implementation spans dedicated branches. Rename/default-branch integration deferred until v14 evidence is frozen. |
-| HumanOS | `humanos-life-interface` | **Strategic private flagship** | Keep distinct from AgentShield; HumanOS is the human-facing orchestration product, AgentShield is the security boundary. |
+| HumanOS | `humanos-life-interface` | **Strategic private flagship / VERIFIED** | Keep distinct from AgentShield; HumanOS is the human-facing orchestration product, AgentShield is the security boundary. Read-only CI passes locked install, lint, 67 tests and production build; the permanent dependency audit passes production-moderate and full-tree-high thresholds. |
 | AICIS | `aicis-divine-core-6d24171b` | **CANONICAL** | Preserve `AICIS-control` until component-vs-duplicate role is verified. |
 | Quantivis | `quantisights-pro-c6abd242` | **CANONICAL** | Generated suffix is naming debt, not a reason to move prematurely. |
 | ScrollLibrary | `scroll-wisdom-weave-d69aa349` | **CANONICAL** | Other `scroll-wisdom-weave*` repos require content/history comparison before deprecation. |
 | ScrollIntel | `scrollintel-ai-system` | **CANONICAL / RESOLVED** | `scroll-intel` is explicitly retained as a superseded legacy prototype and points to the maintained successor, which contains the broader multi-agent platform, frontend/backend layers, deployment tooling, monitoring and tests. |
 | Apply Wingman | `apply-wingman` | **CANONICAL / RESOLVED** | `JobAutoPilot` is retained only as historical lineage. Its current tree is empty and its reachable pre-empty history contains cleanup artifacts rather than recoverable application source; the maintained ATS/application system lives in `apply-wingman`. |
-| AutoMarketer | `app-automarketer-891ef675` | **CANONICAL CANDIDATE** | Compare with `app-automarketer`. |
+| AutoMarketer | `app-automarketer-891ef675` | **CANONICAL / RESOLVED** | `app-automarketer` explicitly declares itself superseded and points to the maintained Universal AI Growth OS implementation. The canonical current tree is protected against committed environment files and uses a safe `.env.example`. |
 | ScrollJustice | `scroll-justice-prophecy-ai-40` | **CANONICAL CANDIDATE** | Compare public predecessor and related justice repos before consolidation. |
 | Adelaide finance | `adelaide-ledger-ai` | **CANONICAL CANDIDATE** | `AdelaideAccounts` empty; `AdelaideAI` near-empty. Verify history before deprecation. |
 | AI Studio | `stanley-ai-studio` | **CANONICAL / RESOLVED** | `AI_Studio` contains only the legacy placeholder and now redirects to `stanley-ai-studio`, which contains the application source and deployment/project assets. |
