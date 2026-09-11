@@ -14,7 +14,7 @@ This registry is the public portfolio source of truth for project-family identit
 | AutoMarketer | `app-automarketer-891ef675` | **CANONICAL CANDIDATE** | Compare with `app-automarketer`. |
 | ScrollJustice | `scroll-justice-prophecy-ai-40` | **CANONICAL CANDIDATE** | Compare public predecessor and related justice repos before consolidation. |
 | Adelaide finance | `adelaide-ledger-ai` | **CANONICAL CANDIDATE** | `AdelaideAccounts` empty; `AdelaideAI` near-empty. Verify history before deprecation. |
-| AI Studio | `stanley-ai-studio` | **CANONICAL CANDIDATE** | `AI_Studio` currently empty. |
+| AI Studio | `stanley-ai-studio` | **CANONICAL / RESOLVED** | `AI_Studio` contains only the legacy placeholder and now redirects to `stanley-ai-studio`, which contains the application source and deployment/project assets. |
 | ScrollCloud | split role | **COMPONENT FAMILY** | `-ScrollCloud-Core` and `scrollcloud-front` appear role-separated, but backend/core is near-empty and naming needs repair. |
 | News summarization | unresolved | **VERIFY-CONSOLIDATION** | The later `text-summarization-news-aggregation` has a cleaner modular `src/` layout, while `news-summarizer` contains additional notebook/Flask/image-workflow material and repository clutter. Preserve both until unique functionality is compared. |
 | Billionaires analysis | `billionaires-net-worth-analysis` | **CANONICAL / RESOLVED** | `Billionaires_Analysis_Project` is already marked as a superseded legacy shell and points to the canonical repository, which contains the R Markdown source, R code, rendered output and assessment. |
