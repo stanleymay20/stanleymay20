@@ -16,8 +16,8 @@ This registry is the public portfolio source of truth for project-family identit
 | Adelaide finance | `adelaide-ledger-ai` | **CANONICAL CANDIDATE** | `AdelaideAccounts` empty; `AdelaideAI` near-empty. Verify history before deprecation. |
 | AI Studio | `stanley-ai-studio` | **CANONICAL CANDIDATE** | `AI_Studio` currently empty. |
 | ScrollCloud | split role | **COMPONENT FAMILY** | `-ScrollCloud-Core` and `scrollcloud-front` appear role-separated, but backend/core is near-empty and naming needs repair. |
-| News summarization | unresolved | **VERIFY-CONSOLIDATION** | Compare `news-summarizer` and `text-summarization-news-aggregation`. |
-| Billionaires analysis | unresolved | **ACADEMIC DUPLICATE CHECK** | Compare `billionaires-net-worth-analysis` and `Billionaires_Analysis_Project`. |
+| News summarization | unresolved | **VERIFY-CONSOLIDATION** | The later `text-summarization-news-aggregation` has a cleaner modular `src/` layout, while `news-summarizer` contains additional notebook/Flask/image-workflow material and repository clutter. Preserve both until unique functionality is compared. |
+| Billionaires analysis | `billionaires-net-worth-analysis` | **CANONICAL / RESOLVED** | `Billionaires_Analysis_Project` is already marked as a superseded legacy shell and points to the canonical repository, which contains the R Markdown source, R code, rendered output and assessment. |
 
 ## Canonicalization rules
 
