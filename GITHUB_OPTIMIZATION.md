@@ -4,7 +4,7 @@ Controlled portfolio baseline: **100 owned repositories** reviewed through the c
 
 The objective is not to delete history. It is to make the account read like a coherent engineering portfolio: a small number of flagship systems, a visible incubation layer, a separate academic/evidence layer, and a controlled consolidation/archive queue.
 
-The portfolio classification lives in [PROJECT_PORTFOLIO.md](PROJECT_PORTFOLIO.md). This file is the **live cleanup ledger** and should emphasize unresolved work rather than repeatedly re-listing settled families.
+The portfolio classification lives in [PROJECT_PORTFOLIO.md](PROJECT_PORTFOLIO.md). This file is the **live cleanup ledger** and emphasizes unresolved work rather than repeatedly re-listing settled families.
 
 ## Operating rules
 
@@ -34,8 +34,8 @@ The portfolio classification lives in [PROJECT_PORTFOLIO.md](PROJECT_PORTFOLIO.m
 - Permanent dependency audit passes locked install, direct dependency-tree validation, production audit and full-tree audit.
 - The committed npm dependency tree reported **0 known vulnerabilities** under both audit gates at verification.
 - Final cleanup head after temporary-writer removal: `5d0fbcb46a84eee237bcab46794664775f1ab1a5`.
-- `AdelaideAccounts` — **HISTORICAL PREDECESSOR / SUPERSEDED / SAFE ARCHIVE CANDIDATE**. Repository contains only its superseded README; no unique application source.
-- `AdelaideAI` — **HISTORICAL PREDECESSOR / SUPERSEDED / SAFE ARCHIVE CANDIDATE**. Current/history inspection shows only the project shell, LICENSE and superseded README; no unique application source.
+- `AdelaideAccounts` — **HISTORICAL PREDECESSOR / SUPERSEDED / SAFE ARCHIVE CANDIDATE**. No unique application source.
+- `AdelaideAI` — **HISTORICAL PREDECESSOR / SUPERSEDED / SAFE ARCHIVE CANDIDATE**. Only project-shell history, LICENSE and superseded README; no unique application source.
 
 ### News summarization
 
@@ -44,14 +44,23 @@ The portfolio classification lives in [PROJECT_PORTFOLIO.md](PROJECT_PORTFOLIO.m
 - Chronology: predecessor active through 2024-09-18; structured successor began 2024-09-26.
 - Shared lineage: NewsAPI ingestion, T5 summarization and WordPress publishing.
 - Unique predecessor evidence intentionally preserved: Reuters archive scraping, TF-IDF extractive summarization and Flask `/summarize` trigger.
-- The successor now contains `LINEAGE.md` and an accurate README. Its historical workflow is under `github/workflows/`, not `.github/workflows/`, and is intentionally **not active**; no external publishing automation was enabled during cleanup.
+- The successor contains `LINEAGE.md` and an accurate README. Its historical workflow is under `github/workflows/`, not `.github/workflows/`, and remains intentionally inactive.
 
 ### Billionaire net-worth analysis
 
 - `billionaires-net-worth-analysis` — **CANONICAL ACADEMIC / EVIDENCE REPOSITORY — LINEAGE RESOLVED**.
 - Contains the R Markdown source, R analysis code, rendered HTML, figures, TeX/log outputs and applied-statistics assessment PDF.
 - `Billionaires_Analysis_Project` — **SUPERSEDED LEGACY SHELL / SAFE ARCHIVE CANDIDATE**.
-- Its 2024 initial commit contained only the MIT LICENSE and one-line README; no unique analysis source was ever present in that repository.
+- Its 2024 initial commit contained only the MIT LICENSE and one-line README; no unique analysis source was ever present there.
+
+### ScrollIntel
+
+- `scrollintel-ai-system` — **CANONICAL / LINEAGE RESOLVED / SECURITY HARDENING — NOT VERIFIED**.
+- `scroll-intel` — **HISTORICAL PREDECESSOR / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
+- The canonical repository contains the predecessor's exact substantive initial commit `06400f440697a4d63cf758e33197fc805be26145`, so the original backend/spec foundation is preserved in canonical Git history.
+- The predecessor has only that substantive initial commit plus a later documentation commit marking it superseded.
+- `ScrollIntel` and `scrollintel.` are confirmed **empty Git repositories** with no commit history; both are safe archive candidates. `scrollintel.` also has trailing-punctuation naming debt.
+- **Security closure remains open:** `SECURITY_CREDENTIAL_REMEDIATION.md` states that historical credential exposure must be assessed, affected credentials rotated/revoked where necessary, history searched, secret scanning rerun and closure evidence recorded before ScrollIntel may be treated as security-closed or production-certified.
 
 ## Active consolidation queue
 
@@ -92,16 +101,6 @@ Still compare:
 - `scroll-wisdom-weave-94f4588f`
 - `scroll-wisdom-weave-ffcd64d1`
 
-### ScrollIntel
-
-Canonical candidate: `scrollintel-ai-system`.
-
-Still compare:
-
-- `scroll-intel`
-- `ScrollIntel` — empty/private shell candidate.
-- `scrollintel.` — empty public shell with trailing-punctuation naming debt.
-
 ### Apply Wingman
 
 Canonical: `apply-wingman`.
@@ -131,6 +130,23 @@ Review together:
 
 Determine intentional component boundaries before any rename/archive decision.
 
+## Security-hardening queue
+
+### ScrollIntel credential closure
+
+This is no longer a canonical-identification problem. The remaining work is security closure on `scrollintel-ai-system`:
+
+1. inventory historical credential classes without exposing values;
+2. identify which credentials were real versus placeholders;
+3. rotate/revoke affected real credentials at their providers;
+4. verify deployments use current secret stores rather than tracked files;
+5. scan repository history for other secret-bearing material;
+6. consider history rewriting only after rotation/revocation;
+7. re-run secret scanning and permanent quality/security gates;
+8. record non-secret closure evidence.
+
+Do not mark ScrollIntel VERIFIED until this programme is closed.
+
 ## Remaining high-confidence shell / noise checks
 
 These are empty or near-empty candidates that still need a final history/reference check before archive/private decisions:
@@ -145,13 +161,11 @@ These are empty or near-empty candidates that still need a final history/referen
 - `PromptTube`
 - `pushbridge-blueprint`
 - `SAVIOR`
-- `ScrollIntel` — private
-- `scrollintel.` — trailing punctuation
 - `stanleymay20.github.io`
 - `-ScrollCloud-Core` — leading punctuation
 - `PushBridge`
 
-Resolved Adelaide shells have been removed from this queue.
+Resolved Adelaide and ScrollIntel shells have been removed from this queue.
 
 ## Naming debt
 
@@ -161,7 +175,7 @@ Normalize names only after link, deployment, CI and external-reference impact is
 - `-ScrollCloud-Core` → remove leading hyphen
 - `Kingdom-Wealth-` → remove trailing hyphen
 - `legal-case-updater.` → remove trailing period
-- `scrollintel.` → remove trailing period
+- `scrollintel.` → trailing-period repository is now a safe archive candidate rather than a rename target
 - `machine-learniing` → correct spelling
 - `Data-Integrartion` → correct spelling
 - generated suffixes such as `-6d24171b`, `-c6abd242`, `-d69aa349`, `-891ef675` → remove only after canonical lineage is verified
@@ -203,4 +217,4 @@ Flagship/canonical repositories should converge on:
 
 A visitor should primarily see roughly **8–12 flagship/evidence projects**, currently centered on AgentShield, AICIS, Quantivis, ScrollLibrary, ScrollIntel, Apply Wingman, the EU innovation/AI/energy analytics work, AI Sustainability Dashboard and the AI Engineering publication/project.
 
-The account may retain substantial historical/internal repositories, but public navigation should make the canonical project for each family unambiguous.
+ScrollIntel may remain visible as a significant engineering project, but its portfolio presentation must clearly state that security hardening remains open until credential-remediation closure is proven.
