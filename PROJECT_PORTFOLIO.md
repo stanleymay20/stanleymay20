@@ -12,6 +12,8 @@ The goal is to present a coherent engineering portfolio without deleting control
 
 - **FLAGSHIP** — portfolio-defining project.
 - **CANONICAL** — preferred repository for a project family based on the current controlled state.
+- **RESOLVED** — the current family identity/consolidation decision is complete for the verified scope.
+- **VERIFIED** — permanent read-only quality/security gates have passed on the canonical repository.
 - **COMPONENT** — supporting repository that may remain separate intentionally.
 - **INCUBATION** — active but not yet ready to dominate the public portfolio.
 - **ACADEMIC / EVIDENCE** — coursework, research or technical evidence.
@@ -104,7 +106,8 @@ AgentShield belongs in **AI safety, agent security and runtime governance**, not
 ### Fintech / payments / accounting
 
 - `ai-payment-app` — **STRATEGIC INCUBATION**.
-- `adelaide-ledger-ai` — **CANONICAL CANDIDATE**.
+- `adelaide-ledger-ai` — **CANONICAL / RESOLVED / VERIFIED**.
+  - Verification: permanent read-only CI passes locked install, lint, application/tooling TypeScript checks and production build; permanent dependency audit passes locked install, direct-tree validation and both production/full-tree security gates after the controlled dependency migration.
 - `AdelaideAccounts` — **PLACEHOLDER / VERIFY-CONSOLIDATION**.
 - `AdelaideAI` — **NEAR-EMPTY / VERIFY-CONSOLIDATION**.
 - `ai-monetization-app` — **EXPERIMENTAL**.
@@ -141,7 +144,7 @@ AgentShield belongs in **AI safety, agent security and runtime governance**, not
 
 ### Enterprise / business automation
 
-- `app-automarketer-891ef675` — **CANONICAL CANDIDATE**.
+- `app-automarketer-891ef675` — **CANONICAL / RESOLVED / VERIFIED**.
 - `app-automarketer` — **VERIFY-CONSOLIDATION**.
 - `inventory-ignite-ai` — **PRIVATE INCUBATION**.
 - `jimp-global-trade-vision` — **ACTIVE**.
