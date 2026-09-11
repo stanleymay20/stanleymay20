@@ -1,267 +1,206 @@
 # Project Portfolio Architecture
 
-This file is the portfolio map for repositories owned by `stanleymay20`.
+This is the portfolio map for repositories owned by `stanleymay20`.
 
-**Purpose:** reduce duplication, make flagship work easier to discover, separate products from coursework/reference repositories, and create a safe consolidation path without deleting controlled history.
+**Inventory baseline:** 100 owned repositories reviewed on 2026-09-11.
 
-**Safety rule:** a repository marked as a consolidation or archive candidate must be compared at commit/tree level before any destructive action. Controlled publication, release, migration, CI, evidence, or handoff repositories are never archived merely because their names look similar.
+**Current cleanup programme:** [GITHUB_OPTIMIZATION.md](GITHUB_OPTIMIZATION.md)
+
+The goal is to present a coherent engineering portfolio without deleting controlled history. Product families are separated into flagship/canonical systems, strategic incubations/components, academic evidence and consolidation/reference repositories.
 
 ## Status vocabulary
 
-- **FLAGSHIP** — strategic product or portfolio-defining project.
-- **CANONICAL** — preferred repository for a project family based on the current controlled/project state.
-- **COMPONENT** — intentional supporting repository for a larger product.
-- **ACTIVE / EXPERIMENTAL** — useful project that may still be evolving.
-- **LEARNING / REFERENCE** — coursework, exercises, forks, templates, or demonstrations.
-- **VERIFY-CONSOLIDATION** — appears to overlap another repository; compare before archiving or merging.
-- **PLACEHOLDER** — empty or near-empty repository in the current inventory; verify before keeping.
+- **FLAGSHIP** — portfolio-defining project.
+- **CANONICAL** — preferred repository for a project family based on the current controlled state.
+- **COMPONENT** — supporting repository that may remain separate intentionally.
+- **INCUBATION** — active but not yet ready to dominate the public portfolio.
+- **ACADEMIC / EVIDENCE** — coursework, research or technical evidence.
+- **VERIFY-CONSOLIDATION** — overlaps another repository; compare before archive/merge.
+- **PLACEHOLDER** — empty or near-empty in current GitHub metadata; verify before keeping public.
 
-## 1. AI safety, human-agent systems & general intelligence
+## Tier A — flagship / canonical systems
 
-**Portfolio role:** systems that govern, coordinate, protect, or augment human interaction with AI.
+### AgentShield — AI agent security & runtime governance
 
-- `humanos-life-interface` — **FLAGSHIP / CANONICAL** — HumanOS life-interface platform.
-- `agyai-your-personal-intelligence` — **ACTIVE** — personal intelligence assistant.
-- `control-ai-grid` — **ACTIVE / COMPONENT** — AI control/governance layer.
-- `intelligence-nexus-29` — **EXPERIMENTAL** — intelligence aggregation/orchestration.
-- `scroll-nexus` — **EXPERIMENTAL / COMPONENT** — shared nexus/orchestration concept.
-- `signal-ai-suite` — **ACTIVE** — signal/intelligence suite.
-- `SAVIOR` — **PLACEHOLDER / VERIFY**.
-- `scrollwrappedcodex` — **EXPERIMENTAL** — wrapped coding/intelligence concept.
-- `scrollchat-ai` — **EXPERIMENTAL** — conversational AI.
+- `demo-repo` — **FLAGSHIP / CANONICAL REPOSITORY IDENTITY PENDING**.
 
-**AgentShield:** the current GitHub connection does not expose a repository whose name contains `AgentShield` or `shield`. Treat AgentShield as a strategic flagship, but do not fabricate a repository mapping until its GitHub repository is visible to the connector.
+`demo-repo` is AgentShield. Its current public default branch is not yet the product source of truth; controlled work lives across branches including the green platform branch and research/evaluation lineages. Do not rename/restructure the repository until the running v14 controlled experiment is frozen and its evidence verified.
 
-## 2. Decision intelligence, forecasting & analytical platforms
+AgentShield belongs in **AI safety, agent security and runtime governance**, not in learning/demo projects.
 
-**Portfolio role:** evidence ingestion, validation, forecasting, risk intelligence and decision support.
-
-### AICIS family
+### AICIS — decision intelligence / resilience
 
 - `aicis-divine-core-6d24171b` — **FLAGSHIP / CANONICAL**.
 - `AICIS-control` — **COMPONENT / VERIFY ROLE**.
 - `aicis-divine-core` — **VERIFY-CONSOLIDATION**.
 - `aicis-divine-core-b1d2f00f` — **VERIFY-CONSOLIDATION**.
 
-### Quantivis family
+### Quantivis — decision intelligence
 
-- `quantisights-pro-c6abd242` — **FLAGSHIP / CANONICAL** — current Quantivis portfolio target.
+- `quantisights-pro-c6abd242` — **FLAGSHIP / CANONICAL**.
 - `quantisights-pro` — **VERIFY-CONSOLIDATION**.
 - `quantisights-pro-e4e7e290` — **VERIFY-CONSOLIDATION**.
 - `quantisights-pro-ff2bbabf` — **VERIFY-CONSOLIDATION**.
 
-### ScrollIntel family
+### ScrollLibrary — AI publishing OS
+
+- `scroll-wisdom-weave-d69aa349` — **FLAGSHIP / CANONICAL**.
+- `scroll-wisdom-weave` — **VERIFY-CONSOLIDATION**.
+- `scroll-wisdom-weave-370c9253` — **VERIFY-CONSOLIDATION**.
+- `scroll-wisdom-weave-94f4588f` — **VERIFY-CONSOLIDATION**.
+- `scroll-wisdom-weave-ffcd64d1` — **VERIFY-CONSOLIDATION**.
+
+### ScrollIntel — intelligence/orchestration
 
 - `scrollintel-ai-system` — **FLAGSHIP / CANONICAL CANDIDATE**.
 - `scroll-intel` — **VERIFY-CONSOLIDATION**.
 - `ScrollIntel` — **PLACEHOLDER / VERIFY-CONSOLIDATION**.
 - `scrollintel.` — **PLACEHOLDER / VERIFY-CONSOLIDATION**.
 
-### Analytics and forecasting
+### Apply Wingman — career automation
 
-- `forecasting-system` — **FLAGSHIP** — policy/economic/AI/energy analytics.
-- `ai_sustainability_dashboard` — **FLAGSHIP** — environmental/sustainability analytics.
-- `OmniData.AI` — **ACTIVE** — broad data/AI platform.
-- `Scroll-energy` — **EXPERIMENTAL** — energy-focused product/research.
-
-## 3. AI engineering, developer tools & app-generation systems
-
-**Portfolio role:** systems that build, orchestrate, test, or accelerate software and AI applications.
-
-- `stanley-ai-studio` — **ACTIVE / CANONICAL CANDIDATE** for AI studio work.
-- `studio-foundation` — **COMPONENT**.
-- `pure-prompt-app-gen` — **ACTIVE** — prompt-to-application generation.
-- `AutoDevAgent-GPTX` — **EXPERIMENTAL** — autonomous development agent.
-- `DevStream-AI` — **EXPERIMENTAL** — AI developer workflow.
-- `scroll-engine-x` — **ACTIVE / COMPONENT** — internal engine/platform concept.
-- `screenshot-perfect-119` — **EXPERIMENTAL** — screenshot/UI workflow.
-- `next-dashboard-ui` — **LEARNING / TEMPLATE / COMPONENT**.
-- `AI_Studio` — **PLACEHOLDER / VERIFY-CONSOLIDATION** with `stanley-ai-studio`.
-- `langflow` — **REFERENCE / FORK CANDIDATE** — keep clearly separated from original product IP unless materially modified.
-
-## 4. Cloud, infrastructure, integration & delivery
-
-**Portfolio role:** shared infrastructure and transport layers that support multiple products.
-
-- `-ScrollCloud-Core` — **COMPONENT / CANONICAL CANDIDATE** for ScrollCloud backend/core.
-- `scrollcloud-front` — **COMPONENT / CANONICAL CANDIDATE** for ScrollCloud frontend.
-- `Cloud-2.0` — **PLACEHOLDER / VERIFY-CONSOLIDATION**.
-- `PushBridge` — **ACTIVE / COMPONENT**.
-- `pushbridge-blueprint` — **VERIFY-CONSOLIDATION / DOCUMENTATION COMPONENT**.
-- `Data-Integrartion` — **PLACEHOLDER / LEARNING**; name also contains a spelling error.
-
-## 5. Career automation, marketing & business operations
-
-**Portfolio role:** workflow automation for employment, marketing, inventory, communications and business operations.
-
-### Career automation
-
-- `apply-wingman` — **FLAGSHIP / CANONICAL** — job application automation platform.
+- `apply-wingman` — **FLAGSHIP / CANONICAL**.
 - `JobAutoPilot` — **VERIFY-CONSOLIDATION / PREDECESSOR CANDIDATE**.
 
-### Marketing and operations
+### Technical publication / data evidence
 
-- `app-automarketer-891ef675` — **CANONICAL CANDIDATE** for AutoMarketer.
-- `app-automarketer` — **VERIFY-CONSOLIDATION**.
-- `inventory-ignite-ai` — **ACTIVE** — inventory/business intelligence.
-- `curry36-chatbot` — **PLACEHOLDER / VERIFY**.
-- `curry36-whatsapp-bot` — **EXPERIMENTAL**.
-- `jimp-global-trade-vision` — **ACTIVE** — trade/business platform.
-- `jimp` — **PLACEHOLDER / COMPANY ROOT CANDIDATE**.
+- `AI-ENGINEERING-From-Foundations-to-Production-Systems` — **FLAGSHIP / TECHNICAL PUBLICATION**.
+- `forecasting-system` — **FLAGSHIP / DATA & FORECASTING EVIDENCE**.
+- `ai_sustainability_dashboard` — **FLAGSHIP / APPLIED DATA & AI EVIDENCE**.
 
-## 6. Fintech, payments, accounting & monetisation
+## Tier B — strategic incubation & components
 
-**Portfolio role:** payments, ledgers, accounting and digital-asset experiments.
+### Human / personal AI
 
-- `ai-payment-app` — **ACTIVE / STRATEGIC CANDIDATE**.
-- `adelaide-ledger-ai` — **ACTIVE / CANONICAL CANDIDATE** for Adelaide finance tooling.
+- `humanos-life-interface` — **STRATEGIC PRIVATE FLAGSHIP INCUBATION** — HumanOS.
+- `agyai-your-personal-intelligence` — **INCUBATION**.
+- `control-ai-grid` — **COMPONENT / INCUBATION**.
+- `intelligence-nexus-29` — **INCUBATION**.
+- `signal-ai-suite` — **INCUBATION**.
+- `scroll-nexus` — **COMPONENT / INCUBATION**.
+- `scrollchat-ai` — **INCUBATION**.
+- `scrollwrappedcodex` — **INCUBATION**.
+
+### AI engineering / developer tooling
+
+- `stanley-ai-studio` — **CANONICAL CANDIDATE**.
+- `studio-foundation` — **COMPONENT**.
+- `pure-prompt-app-gen` — **INCUBATION**.
+- `AutoDevAgent-GPTX` — **EXPERIMENTAL**.
+- `DevStream-AI` — **EXPERIMENTAL**.
+- `scroll-engine-x` — **COMPONENT / INCUBATION**.
+- `screenshot-perfect-119` — **EXPERIMENTAL / PRIVATE**.
+- `next-dashboard-ui` — **TEMPLATE / LEARNING / COMPONENT**.
+- `AI_Studio` — **PLACEHOLDER / VERIFY-CONSOLIDATION**.
+
+### Cloud / infrastructure
+
+- `-ScrollCloud-Core` — **COMPONENT / NAMING-DEBT**.
+- `scrollcloud-front` — **COMPONENT**.
+- `Cloud-2.0` — **PLACEHOLDER / PRIVATE**.
+- `PushBridge` — **COMPONENT / NEAR-EMPTY**.
+- `pushbridge-blueprint` — **PLACEHOLDER / VERIFY-CONSOLIDATION**.
+
+### Fintech / payments / accounting
+
+- `ai-payment-app` — **STRATEGIC INCUBATION**.
+- `adelaide-ledger-ai` — **CANONICAL CANDIDATE**.
 - `AdelaideAccounts` — **PLACEHOLDER / VERIFY-CONSOLIDATION**.
-- `AdelaideAI` — **PLACEHOLDER / VERIFY-CONSOLIDATION**.
+- `AdelaideAI` — **NEAR-EMPTY / VERIFY-CONSOLIDATION**.
 - `ai-monetization-app` — **EXPERIMENTAL**.
-- `Freecryptocurrency` — **LEGACY / EXPERIMENTAL / VERIFY SECURITY & RELEVANCE**.
+- `Freecryptocurrency` — **LEGACY / VERIFY SECURITY & RELEVANCE**.
 
-## 7. Justice, governance & civic technology
+### Justice / governance
 
-**Portfolio role:** legal workflow, justice access and governance technology.
-
-- `scroll-justice-prophecy-ai-40` — **ACTIVE / CANONICAL CANDIDATE** pending controlled-state verification.
+- `scroll-justice-prophecy-ai-40` — **CANONICAL CANDIDATE / PRIVATE**.
 - `scroll-justice-prophecy-ai` — **VERIFY-CONSOLIDATION**.
-- `FastTrackJusticeAI` — **EXPERIMENTAL / POSSIBLE PREDECESSOR**.
-- `legal-case-updater.` — **PLACEHOLDER / VERIFY-CONSOLIDATION**; trailing punctuation makes the repository name poor for a public portfolio.
+- `FastTrackJusticeAI` — **POSSIBLE PREDECESSOR**.
+- `legal-case-updater.` — **PLACEHOLDER / NAMING-DEBT**.
 
-## 8. Health, wellness & clinical AI
+### Health / wellness
 
-**Portfolio role:** health-oriented analytics, navigation and wellbeing applications.
+- `healthos-your-wellness-navigator` — **INCUBATION**.
+- `clinical-ai-platform` — **PLACEHOLDER / PRIVATE**.
+- `scrollcomfort-ai` — **EXPERIMENTAL**.
+- `diabetes_prediction` — **ACADEMIC / EVIDENCE**.
 
-- `healthos-your-wellness-navigator` — **ACTIVE**.
-- `clinical-ai-platform` — **PLACEHOLDER / STRATEGIC CANDIDATE**.
-- `diabetes_prediction` — **ACADEMIC / PORTFOLIO**.
-- `scrollcomfort-ai` — **ACTIVE / EXPERIMENTAL**.
+### Publishing / education / faith / media
 
-## 9. Publishing, knowledge, education, faith & media
-
-**Portfolio role:** publishing systems, books, education products, content transformation and faith-oriented applications.
-
-### ScrollLibrary family
-
-- `scroll-wisdom-weave-d69aa349` — **FLAGSHIP / CANONICAL** — current controlled ScrollLibrary repository.
-- `scroll-wisdom-weave` — **VERIFY-CONSOLIDATION**.
-- `scroll-wisdom-weave-370c9253` — **VERIFY-CONSOLIDATION**.
-- `scroll-wisdom-weave-94f4588f` — **VERIFY-CONSOLIDATION**.
-- `scroll-wisdom-weave-ffcd64d1` — **VERIFY-CONSOLIDATION**.
-
-### Books and publishing
-
-- `AI-ENGINEERING-From-Foundations-to-Production-Systems` — **FLAGSHIP / BOOK**.
-- `Kingdom-Wealth-` — **FLAGSHIP / BOOK**; rename later only with controlled-link/CI review because the trailing hyphen is undesirable.
-- `scroll-scribe-automaton` — **ACTIVE / PUBLISHING COMPONENT**.
-
-### Education and faith
-
-- `educhat-ai` — **ACTIVE**.
-- `uni-leaderboard-buddy` — **EXPERIMENTAL / EDUCATION**.
-- `daily-chapter-guide` — **ACTIVE / CONTENT**.
-- `daily-chapter-reflections` — **ACTIVE / CONTENT**.
-- `Bible-ARVR-App` — **ACTIVE / EXPERIMENTAL**.
+- `scroll-scribe-automaton` — **PUBLISHING COMPONENT**.
+- `Kingdom-Wealth-` — **BOOK / PRIVATE / NAMING-DEBT**.
+- `educhat-ai` — **EDUCATION INCUBATION / PRIVATE**.
+- `uni-leaderboard-buddy` — **EDUCATION EXPERIMENT / PRIVATE**.
+- `daily-chapter-guide` — **CONTENT / PRIVATE**.
+- `daily-chapter-reflections` — **CONTENT**.
+- `Bible-ARVR-App` — **EXPERIMENTAL**.
 - `churchos-backend` — **COMPONENT**.
 - `churchos-frontend` — **COMPONENT**.
+- `insight-reader` — **PRIVATE INCUBATION**.
+- `to-voice` — **PRIVATE MEDIA INCUBATION**.
+- `PromptTube` — **PLACEHOLDER**.
 
-### Reading, summarisation and media
+### Enterprise / business automation
 
-- `insight-reader` — **ACTIVE**.
-- `news-summarizer` — **VERIFY-CONSOLIDATION** with the text/news summarisation family.
-- `text-summarization-news-aggregation` — **VERIFY-CONSOLIDATION**.
-- `to-voice` — **ACTIVE / MEDIA**.
-- `PromptTube` — **PLACEHOLDER / MEDIA IDEA**.
+- `app-automarketer-891ef675` — **CANONICAL CANDIDATE**.
+- `app-automarketer` — **VERIFY-CONSOLIDATION**.
+- `inventory-ignite-ai` — **PRIVATE INCUBATION**.
+- `jimp-global-trade-vision` — **ACTIVE**.
+- `jimp` — **NEAR-EMPTY / COMPANY ROOT CANDIDATE**.
+- `curry36-whatsapp-bot` — **EXPERIMENTAL**.
+- `curry36-chatbot` — **PLACEHOLDER**.
 
-## 10. Data science, research, coursework & learning portfolio
+## Tier C — academic / technical evidence
 
-**Portfolio role:** evidence of technical development and academic progression. These should not compete visually with the flagship product portfolio.
+These should remain discoverable but should not compete visually with the flagship product portfolio.
 
-- `Data-Storytelling-with-Google-Data-Studio` — **PORTFOLIO / ACADEMIC**.
-- `Data-Visualization` — **PORTFOLIO / ACADEMIC**.
-- `machine-learniing` — **PORTFOLIO / ACADEMIC**; spelling should be cleaned only after link impact is assessed.
-- `billionaires-net-worth-analysis` — **VERIFY-CONSOLIDATION / ACADEMIC**.
-- `Billionaires_Analysis_Project` — **VERIFY-CONSOLIDATION / ACADEMIC**.
-- `Social-Network` — **ACADEMIC**.
-- `Social-Network-Analysis` — **ACADEMIC**.
-- `haensel-ams-bayesian-mmm` — **RESEARCH / ACADEMIC**.
-- `cs50-ai` — **LEARNING**.
-- `cs50-projects` — **LEARNING**.
-- `tiny_python_projects` — **LEARNING / REFERENCE**.
+- `Data-Storytelling-with-Google-Data-Studio`
+- `Data-Visualization`
+- `machine-learniing` — naming debt
+- `billionaires-net-worth-analysis`
+- `Billionaires_Analysis_Project` — duplicate comparison required
+- `Social-Network`
+- `Social-Network-Analysis`
+- `haensel-ams-bayesian-mmm`
+- `cs50-ai`
+- `cs50-projects`
+- `tiny_python_projects`
+- `perceptron` — placeholder
+
+## Tier D — reference / legacy / consolidation
+
+- `langflow` — **REFERENCE / FORK CANDIDATE**; clearly separate from original product IP unless materially modified.
 - `Python-Natural-Language-Processing-Cookbook` — **REFERENCE / FORK CANDIDATE**.
-- `perceptron` — **PLACEHOLDER / LEARNING**.
-- `demo-repo` — **LEARNING / DEMO**.
+- `news-summarizer` and `text-summarization-news-aggregation` — compare and consolidate if overlapping.
+- empty or near-empty public placeholders listed in [GITHUB_OPTIMIZATION.md](GITHUB_OPTIMIZATION.md).
 
-## 11. Profile & portfolio delivery
+## Profile & delivery
 
 - `stanleymay20` — **CANONICAL PROFILE REPOSITORY**.
-- `stanleymay20.github.io` — **PORTFOLIO WEBSITE PLACEHOLDER / DELIVERY**.
+- `stanleymay20.github.io` — currently empty; build only if it adds value beyond the GitHub profile, otherwise archive after verification.
 
-# Recommended portfolio hierarchy
+## Public portfolio hierarchy
 
-The public-facing portfolio should emphasize a small number of families rather than 100 unrelated repositories.
+A visitor should primarily see:
 
-### Tier A — flagship products and controlled work
+1. AgentShield
+2. AICIS
+3. Quantivis
+4. ScrollLibrary
+5. ScrollIntel
+6. Apply Wingman
+7. EU Innovation / AI / Energy Analytics
+8. AI Sustainability Dashboard
+9. AI Engineering publication/project
 
-1. AgentShield — once the repository is visible/connected.
-2. HumanOS — `humanos-life-interface`.
-3. AICIS — `aicis-divine-core-6d24171b`.
-4. Quantivis — `quantisights-pro-c6abd242`.
-5. ScrollLibrary — `scroll-wisdom-weave-d69aa349`.
-6. ScrollIntel — `scrollintel-ai-system` after canonical verification.
-7. Apply Wingman — `apply-wingman`.
-8. AI Engineering — `AI-ENGINEERING-From-Foundations-to-Production-Systems`.
-9. Data/Development evidence — `forecasting-system` and `ai_sustainability_dashboard`.
+HumanOS remains strategically important but is currently private and should be presented as incubation rather than a public repository link.
 
-### Tier B — strategic incubation
+## Safe cleanup sequence
 
-Human/personal AI, payments, ScrollCloud, ScrollJustice, developer tooling, health, education and selected enterprise automation projects.
+1. Verify canonical repositories by commit/tree/content comparison.
+2. Preserve releases, tags, migrations, CI evidence, issues, PRs and controlled SHA gates.
+3. Add canonical/superseded README notices to predecessors.
+4. Archive only after verification; do not delete by default.
+5. Normalize naming only after checking links, deployments, CI and external references.
+6. Keep academic/reference repositories discoverable through this index but outside the flagship presentation.
 
-### Tier C — academic / evidence portfolio
-
-Coursework, analysis notebooks, data visualisation, ML demonstrations and research exercises.
-
-### Tier D — legacy / reference / consolidation
-
-Empty placeholders, generated-name duplicates, predecessor repos, forks and tutorials.
-
-# Highest-priority consolidation checks
-
-1. **ScrollLibrary:** compare all `scroll-wisdom-weave*` repositories against `scroll-wisdom-weave-d69aa349`.
-2. **Quantivis:** compare all `quantisights-pro*` repositories against `quantisights-pro-c6abd242`.
-3. **AICIS:** preserve `aicis-divine-core-6d24171b`; determine whether `AICIS-control` is a genuine component before merging anything.
-4. **ScrollIntel:** determine whether `scrollintel-ai-system` contains all meaningful history from `scroll-intel`, `ScrollIntel`, and `scrollintel.`.
-5. **Apply Wingman:** compare `JobAutoPilot` with `apply-wingman` and preserve unique ATS/application logic before consolidation.
-6. **AutoMarketer:** compare `app-automarketer` and `app-automarketer-891ef675`.
-7. **ScrollJustice:** compare the two ScrollJustice repositories plus `FastTrackJusticeAI` and `legal-case-updater.`.
-8. **Adelaide finance:** compare `adelaide-ledger-ai`, `AdelaideAccounts`, and `AdelaideAI`.
-9. **News summarisation:** compare `news-summarizer` and `text-summarization-news-aggregation`.
-10. **Academic duplicates:** compare the two billionaire-analysis repositories.
-
-# Naming standard for future repositories
-
-Use lowercase kebab-case for product repositories and reserve suffixes for intentional technical roles, not generated IDs.
-
-Preferred pattern:
-
-`product-name`  
-`product-name-api`  
-`product-name-web`  
-`product-name-infra`  
-`product-name-research`
-
-Avoid future names such as `product-name-6d24171b`, trailing punctuation, accidental leading/trailing hyphens, or spelling errors unless the repository is a temporary generated workspace.
-
-# Cleanup sequence
-
-1. Verify canonical repositories by commit/tree comparison.
-2. Preserve release tags, migration history, CI evidence, issues, PRs and controlled SHA gates.
-3. Move unique code/history into canonical repositories where justified.
-4. Add deprecation READMEs to superseded public repositories.
-5. Archive only after verification; do not delete by default.
-6. Keep coursework/reference repositories discoverable through this index but out of the flagship presentation.
-
----
-
-**Inventory baseline:** 100 repositories returned by the connected GitHub account under owner affiliation on 2026-09-11.
+For the live cleanup queue, naming debt, empty repositories and public/private strategy, see [GITHUB_OPTIMIZATION.md](GITHUB_OPTIMIZATION.md).
