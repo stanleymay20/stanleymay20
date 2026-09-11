@@ -14,6 +14,7 @@ The goal is to present a coherent engineering portfolio without deleting control
 - **CANONICAL** — preferred repository for a project family based on the current controlled state.
 - **RESOLVED** — the current family identity/consolidation decision is complete for the verified scope.
 - **VERIFIED** — permanent read-only quality/security gates have passed on the canonical repository.
+- **SECURITY HARDENING** — canonical lineage is known, but an explicit security closure gate remains open.
 - **COMPONENT** — supporting repository that may remain separate intentionally.
 - **INCUBATION** — active but not yet ready to dominate the public portfolio.
 - **ACADEMIC / EVIDENCE** — coursework, research or technical evidence.
@@ -26,7 +27,7 @@ The goal is to present a coherent engineering portfolio without deleting control
 
 - `demo-repo` — **FLAGSHIP / CANONICAL REPOSITORY IDENTITY PENDING**.
 
-`demo-repo` is AgentShield. Its current public default branch is not yet the product source of truth; controlled work lives across branches including the green platform branch and research/evaluation lineages. Do not rename/restructure the repository until the running v14 controlled experiment is frozen and its evidence verified.
+`demo-repo` is AgentShield. Its current public default branch is not yet the product source of truth; controlled work lives across branches including the green platform branch and research/evaluation lineages. Do not rename/restructure the repository until the active controlled experiment is frozen and its evidence verified.
 
 AgentShield belongs in **AI safety, agent security and runtime governance**, not in learning/demo projects.
 
@@ -54,10 +55,14 @@ AgentShield belongs in **AI safety, agent security and runtime governance**, not
 
 ### ScrollIntel — intelligence/orchestration
 
-- `scrollintel-ai-system` — **FLAGSHIP / CANONICAL CANDIDATE**.
-- `scroll-intel` — **VERIFY-CONSOLIDATION**.
-- `ScrollIntel` — **PLACEHOLDER / VERIFY-CONSOLIDATION**.
-- `scrollintel.` — **PLACEHOLDER / VERIFY-CONSOLIDATION**.
+- `scrollintel-ai-system` — **FLAGSHIP / CANONICAL / LINEAGE RESOLVED / SECURITY HARDENING — NOT VERIFIED**.
+- `scroll-intel` — **HISTORICAL PREDECESSOR / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
+- `ScrollIntel` — **EMPTY PRIVATE SHELL / SAFE ARCHIVE CANDIDATE**.
+- `scrollintel.` — **EMPTY PUBLIC SHELL / SAFE ARCHIVE CANDIDATE / NAMING-DEBT**.
+
+Lineage evidence is unusually strong: `scrollintel-ai-system` contains the exact predecessor commit `06400f440697a4d63cf758e33197fc805be26145`, so the original backend/spec foundation is preserved in the canonical repository's Git history. `scroll-intel` has only that substantive initial commit plus a later documentation commit marking it superseded.
+
+ScrollIntel is **not VERIFIED**. The canonical repository's `SECURITY_CREDENTIAL_REMEDIATION.md` explicitly states that historical credential exposure assessment, any required credential rotations/revocations, history review and re-scanning must be completed before security remediation is closed.
 
 ### Apply Wingman — career automation
 
@@ -108,8 +113,8 @@ AgentShield belongs in **AI safety, agent security and runtime governance**, not
 - `ai-payment-app` — **STRATEGIC INCUBATION**.
 - `adelaide-ledger-ai` — **CANONICAL / RESOLVED / VERIFIED**.
   - Verification: permanent read-only CI passes locked install, lint, application/tooling TypeScript checks and production build; permanent dependency audit passes locked install, direct-tree validation and both production/full-tree security gates after the controlled dependency migration.
-- `AdelaideAccounts` — **PLACEHOLDER / VERIFY-CONSOLIDATION**.
-- `AdelaideAI` — **NEAR-EMPTY / VERIFY-CONSOLIDATION**.
+- `AdelaideAccounts` — **HISTORICAL PREDECESSOR / SUPERSEDED / SAFE ARCHIVE CANDIDATE**. No unique application source.
+- `AdelaideAI` — **HISTORICAL PREDECESSOR / SUPERSEDED / SAFE ARCHIVE CANDIDATE**. Only project-shell history, LICENSE and superseded README; no unique application source.
 - `ai-monetization-app` — **EXPERIMENTAL**.
 - `Freecryptocurrency` — **LEGACY / VERIFY SECURITY & RELEVANCE**.
 
@@ -159,8 +164,8 @@ These should remain discoverable but should not compete visually with the flagsh
 - `Data-Storytelling-with-Google-Data-Studio`
 - `Data-Visualization`
 - `machine-learniing` — naming debt
-- `billionaires-net-worth-analysis`
-- `Billionaires_Analysis_Project` — duplicate comparison required
+- `billionaires-net-worth-analysis` — **CANONICAL ACADEMIC / EVIDENCE — LINEAGE RESOLVED**. Contains the R Markdown source, R analysis code, rendered outputs, figures and applied-statistics assessment.
+- `Billionaires_Analysis_Project` — **SUPERSEDED LEGACY SHELL / SAFE ARCHIVE CANDIDATE**. Its initial commit contained only the MIT LICENSE and a one-line README; no unique analysis source was ever present.
 - `Social-Network`
 - `Social-Network-Analysis`
 - `haensel-ams-bayesian-mmm`
@@ -190,7 +195,7 @@ A visitor should primarily see:
 2. AICIS
 3. Quantivis
 4. ScrollLibrary
-5. ScrollIntel
+5. ScrollIntel — clearly labelled as undergoing security hardening, not production-certified
 6. Apply Wingman
 7. EU Innovation / AI / Energy Analytics
 8. AI Sustainability Dashboard
@@ -200,7 +205,7 @@ HumanOS remains strategically important but is currently private and should be p
 
 ## Safe cleanup sequence
 
-1. Verify canonical repositories by commit/tree/content comparison.
+1. Verify canonical repositories by commit/tree/content/history comparison.
 2. Preserve releases, tags, migrations, CI evidence, issues, PRs and controlled SHA gates.
 3. Add canonical/superseded README notices to predecessors.
 4. Archive only after verification; do not delete by default.
