@@ -6,7 +6,7 @@ I build AI and data systems that turn fragmented information into **validated ev
 
 > **Engineering principle:** make the evidence visible before making the recommendation — and make authorization explicit before allowing an agent to act.
 
-[Portfolio architecture](PROJECT_PORTFOLIO.md) · [Portfolio optimization programme](GITHUB_OPTIMIZATION.md) · [Development/data evidence](DEVELOPMENT_DATA_PORTFOLIO.md)
+[Portfolio architecture](PROJECT_PORTFOLIO.md) · [Canonical repository registry](CANONICAL_REPOSITORY_REGISTRY.md) · [Optimization programme](GITHUB_OPTIMIZATION.md) · [Development/data evidence](DEVELOPMENT_DATA_PORTFOLIO.md)
 
 ## Flagship systems
 
