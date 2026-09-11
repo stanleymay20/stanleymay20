@@ -168,12 +168,13 @@ These should remain discoverable but should not compete visually with the flagsh
 - `cs50-projects`
 - `tiny_python_projects`
 - `perceptron` — placeholder
+- `text-summarization-news-aggregation` — **CANONICAL ACADEMIC SUCCESSOR / LINEAGE RESOLVED / NOT PRODUCTION-VERIFIED**. Structured modular successor for the 2024 news summarization work; see its `LINEAGE.md`.
 
 ## Tier D — reference / legacy / consolidation
 
 - `langflow` — **REFERENCE / FORK CANDIDATE**; clearly separate from original product IP unless materially modified.
 - `Python-Natural-Language-Processing-Cookbook` — **REFERENCE / FORK CANDIDATE**.
-- `news-summarizer` and `text-summarization-news-aggregation` — compare and consolidate if overlapping.
+- `news-summarizer` — **HISTORICAL PROTOTYPE / PRESERVE**. Retains unique Reuters scraping, TF-IDF extractive summarization and Flask trigger experiments absent from the structured successor; do not delete as a duplicate.
 - empty or near-empty public placeholders listed in [GITHUB_OPTIMIZATION.md](GITHUB_OPTIMIZATION.md).
 
 ## Profile & delivery
