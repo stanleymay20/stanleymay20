@@ -6,7 +6,8 @@ I build data and AI systems that turn fragmented information into **validated an
 
 A recurring theme across my work is simple: **make the evidence visible before making the recommendation.**
 
-**Curated evidence:** [Data & AI for Development — Portfolio Evidence](DEVELOPMENT_DATA_PORTFOLIO.md)
+**Curated evidence:** [Data & AI for Development — Portfolio Evidence](DEVELOPMENT_DATA_PORTFOLIO.md)  
+**Full project map:** [Project Portfolio Architecture](PROJECT_PORTFOLIO.md)
 
 ## Flagship projects
 
@@ -39,6 +40,23 @@ Production-oriented platform for ingesting messy operational data, validating it
 **Live:** https://www.quantivis.io
 
 **Transferable development relevance:** SME/programme analytics · economic indicators · data-quality assessment · SDG 8 · SDG 9 · SDG 10
+
+## Project families
+
+The wider repository portfolio is organized into clear families so experimental work and coursework do not obscure the strongest systems:
+
+- **AI safety & human-agent systems:** HumanOS, AI-control/orchestration and personal-intelligence projects.
+- **Decision intelligence & forecasting:** AICIS, Quantivis, ScrollIntel, economic/energy forecasting and sustainability analytics.
+- **AI engineering & developer tooling:** AI studios, app-generation, development agents and reusable engineering components.
+- **Cloud & infrastructure:** ScrollCloud, PushBridge and integration/delivery layers.
+- **Career & enterprise automation:** Apply Wingman, AutoMarketer, inventory and operational automation.
+- **Fintech & payments:** payment, ledger, accounting and monetisation experiments.
+- **Justice & governance:** ScrollJustice and related civic/legal technology.
+- **Health & wellness:** HealthOS, clinical AI, predictive-health and wellbeing applications.
+- **Publishing, education & knowledge:** ScrollLibrary, AI Engineering, Kingdom Wealth, education, faith and media systems.
+- **Data science & research:** academic projects, coursework, visualisation and learning repositories.
+
+See the [full 100-repository portfolio map](PROJECT_PORTFOLIO.md) for canonical repos, components, consolidation candidates and the safe cleanup sequence.
 
 ## Additional work
 
