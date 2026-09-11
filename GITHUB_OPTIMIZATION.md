@@ -4,109 +4,88 @@ Controlled portfolio baseline: **100 owned repositories** reviewed through the c
 
 The objective is not to delete history. It is to make the account read like a coherent engineering portfolio: a small number of flagship systems, a visible incubation layer, a separate academic/evidence layer, and a controlled consolidation/archive queue.
 
+The portfolio classification lives in [PROJECT_PORTFOLIO.md](PROJECT_PORTFOLIO.md). This file is the **live cleanup ledger** and should emphasize unresolved work rather than repeatedly re-listing settled families.
+
 ## Operating rules
 
 1. Do not delete a repository because its name looks duplicated.
-2. Compare canonical candidates at commit/tree/content level before consolidation.
+2. Compare canonical candidates at commit/tree/content/history level before consolidation.
 3. Preserve migrations, CI evidence, releases, tags, issues, PRs, experiment lineage and controlled SHA gates.
 4. Prefer archive/deprecation over deletion for public predecessors.
 5. Do not restructure a branch while a controlled experiment is running.
 6. Public repositories should either demonstrate meaningful work or clearly state that they are historical/reference repositories.
 7. Private incubations do not need to compete for attention on the public profile.
-8. A family may be marked **VERIFIED** only after permanent read-only quality/security gates pass on the canonical repository and temporary write-enabled repair workflows have been removed.
+8. Mark a repository **VERIFIED** only after permanent read-only quality/security gates pass and temporary write-enabled repair workflows are removed.
+9. A resolved canonical does not automatically authorize deleting or archiving siblings; unique-history checks still apply.
 
-## Verified resolutions
+## Closed / resolved families
 
-- `app-automarketer-891ef675` — **AutoMarketer — CANONICAL / RESOLVED / VERIFIED**. Permanent CI and dependency-security gates passed after the controlled dependency repair; temporary writer removed.
-- `adelaide-ledger-ai` — **Adelaide Ledger — CANONICAL / RESOLVED / VERIFIED**. Permanent CI passes locked install, lint, application/tooling TypeScript checks and production build. Permanent dependency audit passes locked install, direct dependency-tree validation, production audit and full-tree audit. The committed npm tree reports zero known vulnerabilities under both audit gates; temporary writer removed. Final cleanup head: `5d0fbcb46a84eee237bcab46794664775f1ab1a5`.
+### AutoMarketer
 
-A verified canonical does not automatically authorize archiving its siblings. Unique-history checks still apply.
+- `app-automarketer-891ef675` — **CANONICAL / RESOLVED / VERIFIED**.
+- Permanent CI and dependency-security gates passed after controlled dependency repair.
+- Temporary writer removed.
+- `app-automarketer` remains historical/consolidation evidence until its own final archive decision is made.
 
-## Portfolio tiers
+### Adelaide finance
 
-### Tier A — flagship / canonical
+- `adelaide-ledger-ai` — **CANONICAL / RESOLVED / VERIFIED**.
+- Permanent read-only CI passes locked install, lint, application/tooling TypeScript checks and production build.
+- Permanent dependency audit passes locked install, direct dependency-tree validation, production audit and full-tree audit.
+- The committed npm dependency tree reported **0 known vulnerabilities** under both audit gates at verification.
+- Final cleanup head after temporary-writer removal: `5d0fbcb46a84eee237bcab46794664775f1ab1a5`.
+- `AdelaideAccounts` — **HISTORICAL PREDECESSOR / SUPERSEDED / SAFE ARCHIVE CANDIDATE**. Repository contains only its superseded README; no unique application source.
+- `AdelaideAI` — **HISTORICAL PREDECESSOR / SUPERSEDED / SAFE ARCHIVE CANDIDATE**. Current/history inspection shows only the project shell, LICENSE and superseded README; no unique application source.
 
-These should dominate the public profile and eventually receive consistent READMEs, security/release metadata and repository governance.
+### News summarization
 
-- `demo-repo` — **AgentShield** — AI agent security and runtime governance. Repository rename/integration deferred until the current controlled v14 experiment is frozen.
-- `aicis-divine-core-6d24171b` — **AICIS** — current controlled canonical target.
-- `quantisights-pro-c6abd242` — **Quantivis** — current canonical target.
-- `scroll-wisdom-weave-d69aa349` — **ScrollLibrary** — current controlled canonical target.
-- `scrollintel-ai-system` — **ScrollIntel** — canonical candidate pending duplicate/history verification.
-- `apply-wingman` — **Apply Wingman** — canonical career-automation product.
-- `AI-ENGINEERING-From-Foundations-to-Production-Systems` — flagship technical publication/project.
-- `forecasting-system` — flagship data/forecasting evidence.
-- `ai_sustainability_dashboard` — flagship applied data/AI evidence.
+- `text-summarization-news-aggregation` — **CANONICAL ACADEMIC SUCCESSOR / LINEAGE RESOLVED / NOT PRODUCTION-VERIFIED**.
+- `news-summarizer` — **HISTORICAL PROTOTYPE / PRESERVE**.
+- Chronology: predecessor active through 2024-09-18; structured successor began 2024-09-26.
+- Shared lineage: NewsAPI ingestion, T5 summarization and WordPress publishing.
+- Unique predecessor evidence intentionally preserved: Reuters archive scraping, TF-IDF extractive summarization and Flask `/summarize` trigger.
+- The successor now contains `LINEAGE.md` and an accurate README. Its historical workflow is under `github/workflows/`, not `.github/workflows/`, and is intentionally **not active**; no external publishing automation was enabled during cleanup.
 
-### Tier B — strategic incubation / components
+### Billionaire net-worth analysis
 
-These are worth keeping active, but should not crowd the profile landing page before they reach stronger product/release maturity.
+- `billionaires-net-worth-analysis` — **CANONICAL ACADEMIC / EVIDENCE REPOSITORY — LINEAGE RESOLVED**.
+- Contains the R Markdown source, R analysis code, rendered HTML, figures, TeX/log outputs and applied-statistics assessment PDF.
+- `Billionaires_Analysis_Project` — **SUPERSEDED LEGACY SHELL / SAFE ARCHIVE CANDIDATE**.
+- Its 2024 initial commit contained only the MIT LICENSE and one-line README; no unique analysis source was ever present in that repository.
 
-- `humanos-life-interface` — HumanOS, private flagship incubation.
-- `agyai-your-personal-intelligence`
-- `control-ai-grid`
-- `intelligence-nexus-29`
-- `signal-ai-suite`
-- `scroll-nexus`
-- `stanley-ai-studio`
-- `studio-foundation`
-- `pure-prompt-app-gen`
-- `AutoDevAgent-GPTX`
-- `DevStream-AI`
-- `scroll-engine-x`
-- `ai-payment-app`
-- `adelaide-ledger-ai` — **CANONICAL / RESOLVED / VERIFIED**
-- `scroll-justice-prophecy-ai-40`
-- `healthos-your-wellness-navigator`
-- `educhat-ai`
-- `jimp-global-trade-vision`
-- `inventory-ignite-ai`
-- `churchos-backend`
-- `churchos-frontend`
-- `scrollcloud-front`
-- `scroll-scribe-automaton`
-- `scrollcomfort-ai`
-- `to-voice`
-- `insight-reader`
-- `daily-chapter-guide`
-- `daily-chapter-reflections`
-- `Bible-ARVR-App`
-
-## Consolidation clusters
+## Active consolidation queue
 
 ### AgentShield
 
-Current repository: `demo-repo`.
+Current repository identity: `demo-repo`.
 
-Do not rename or change the default branch while `agentshield-assessment-v14-high-recall` is still executing. Once frozen, create a canonical integration lineage that preserves research branches and the green platform branch. Then replace the demo identity with AgentShield-specific repository metadata and a professional default README.
+Do not rename or change the default branch while the controlled AgentShield experiment/evidence line remains active. Once frozen, integrate the controlled product/research lineages, preserve experiment evidence and replace the demo identity with AgentShield-specific metadata.
 
 ### AICIS
 
 Canonical target: `aicis-divine-core-6d24171b`.
 
-Compare before any archive decision:
+Still compare:
 
 - `aicis-divine-core`
 - `aicis-divine-core-b1d2f00f`
-- `AICIS-control` — verify whether this is a genuine control-plane component rather than a duplicate.
+- `AICIS-control` — determine whether genuine control-plane component or overlapping workspace.
 
 ### Quantivis
 
 Canonical target: `quantisights-pro-c6abd242`.
 
-Compare:
+Still compare:
 
 - `quantisights-pro`
 - `quantisights-pro-e4e7e290`
 - `quantisights-pro-ff2bbabf`
 
-Generated-ID names should eventually disappear from the public product identity, but only after the strongest lineage is confirmed.
-
 ### ScrollLibrary
 
 Canonical target: `scroll-wisdom-weave-d69aa349`.
 
-Compare:
+Still compare:
 
 - `scroll-wisdom-weave`
 - `scroll-wisdom-weave-370c9253`
@@ -117,78 +96,68 @@ Compare:
 
 Canonical candidate: `scrollintel-ai-system`.
 
-Compare:
+Still compare:
 
 - `scroll-intel`
-- `ScrollIntel` — currently empty in repository metadata.
-- `scrollintel.` — currently empty and has undesirable trailing punctuation.
+- `ScrollIntel` — empty/private shell candidate.
+- `scrollintel.` — empty public shell with trailing-punctuation naming debt.
 
 ### Apply Wingman
 
 Canonical: `apply-wingman`.
 
-Compare `JobAutoPilot` and preserve any unique ATS-routing/application logic before deprecating it.
-
-### AutoMarketer
-
-Canonical: `app-automarketer-891ef675` — **RESOLVED / VERIFIED**.
-
-`app-automarketer` remains a consolidation predecessor until its unique-history check is formally closed. Do not archive solely from the canonical decision.
+Compare `JobAutoPilot`; preserve unique ATS-routing/application logic before deprecation.
 
 ### ScrollJustice
 
 Compare:
 
-- `scroll-justice-prophecy-ai`
 - `scroll-justice-prophecy-ai-40`
+- `scroll-justice-prophecy-ai`
 - `FastTrackJusticeAI`
 - `legal-case-updater.`
 
-### Adelaide finance
+Do not infer canonical status from names alone; earlier dependency experiments do not substitute for family-level source/history verification.
 
-Canonical: `adelaide-ledger-ai` — **RESOLVED / VERIFIED**.
+### ScrollCloud
 
-`AdelaideAccounts` is currently empty and `AdelaideAI` is near-empty; verify whether either contains unique history before deprecation. The canonical repository itself is now independently proven by permanent read-only CI and dependency-audit gates.
+Review together:
 
-### News / summarization
+- `-ScrollCloud-Core`
+- `scrollcloud-front`
+- `Cloud-2.0`
+- `PushBridge`
+- `pushbridge-blueprint`
 
-Compare `news-summarizer` with `text-summarization-news-aggregation`.
+Determine intentional component boundaries before any rename/archive decision.
 
-Current evidence says they are overlapping but not yet safe to collapse: `news-summarizer` contains unique executable NewsAPI/Reuters notebook history, while `text-summarization-news-aggregation` is the cleaner modular implementation. Preserve both until the remaining unique-code check is complete.
+## Remaining high-confidence shell / noise checks
 
-### Academic duplicate
+These are empty or near-empty candidates that still need a final history/reference check before archive/private decisions:
 
-Compare `billionaires-net-worth-analysis` with `Billionaires_Analysis_Project`.
+- `AI_Studio`
+- `clinical-ai-platform` — private
+- `Cloud-2.0` — private
+- `curry36-chatbot`
+- `Data-Integrartion` — misspelled
+- `legal-case-updater.` — trailing punctuation
+- `perceptron`
+- `PromptTube`
+- `pushbridge-blueprint`
+- `SAVIOR`
+- `ScrollIntel` — private
+- `scrollintel.` — trailing punctuation
+- `stanleymay20.github.io`
+- `-ScrollCloud-Core` — leading punctuation
+- `PushBridge`
 
-## High-confidence cleanup queue
-
-The following repositories are empty or near-empty according to current GitHub repository metadata and should be verified first because they create portfolio noise with little visible value:
-
-- `AdelaideAccounts` — size 0
-- `AI_Studio` — size 0
-- `clinical-ai-platform` — size 0, private
-- `Cloud-2.0` — size 0, private
-- `curry36-chatbot` — size 0
-- `Data-Integrartion` — size 0 and misspelled
-- `legal-case-updater.` — size 0 and trailing punctuation
-- `perceptron` — size 0
-- `PromptTube` — size 0
-- `pushbridge-blueprint` — size 0
-- `SAVIOR` — size 0
-- `ScrollIntel` — size 0, private
-- `scrollintel.` — size 0 and trailing punctuation
-- `stanleymay20.github.io` — size 0
-- `-ScrollCloud-Core` — size 1 and leading punctuation
-- `AdelaideAI` — size 1
-- `PushBridge` — size 1
-
-These are **archive/deprecation candidates, not automatic deletion candidates**.
+Resolved Adelaide shells have been removed from this queue.
 
 ## Naming debt
 
-The following names weaken the professional presentation and should be normalized only after link/CI/deployment impact is checked:
+Normalize names only after link, deployment, CI and external-reference impact is checked:
 
-- `demo-repo` → future AgentShield-specific name
+- `demo-repo` → future AgentShield-specific identity
 - `-ScrollCloud-Core` → remove leading hyphen
 - `Kingdom-Wealth-` → remove trailing hyphen
 - `legal-case-updater.` → remove trailing period
@@ -197,7 +166,7 @@ The following names weaken the professional presentation and should be normalize
 - `Data-Integrartion` → correct spelling
 - generated suffixes such as `-6d24171b`, `-c6abd242`, `-d69aa349`, `-891ef675` → remove only after canonical lineage is verified
 
-Preferred naming convention for product repositories:
+Preferred product naming:
 
 `product-name`  
 `product-name-api`  
@@ -209,54 +178,29 @@ Preferred naming convention for product repositories:
 
 **Public:** flagship products with professional documentation; selected academic/data evidence; intentional open-source components; historical repositories only when clearly marked as superseded/reference.
 
-**Private:** early product incubations, unfinished concepts, internal infrastructure, duplicated generated workspaces and repositories whose public state adds noise but no portfolio evidence.
+**Private:** early product incubations, unfinished concepts, internal infrastructure and duplicated generated workspaces whose public state adds noise but no portfolio evidence.
 
-Do not make a repository private merely to hide a failed experiment. Negative research evidence should remain preserved when it is part of a controlled scientific lineage.
+Do not hide failed or negative research when it forms part of a controlled scientific lineage.
 
-## Repository quality standard for Tier A
+## Repository quality standard
 
-Every Tier A repository should converge on:
+Flagship/canonical repositories should converge on:
 
 - clear product name and one-sentence purpose;
 - architecture/threat-model documentation where relevant;
-- installation or reproducibility instructions;
-- explicit current status: research, beta, production candidate, etc.;
-- tests and CI status;
-- security/release gates appropriate to the project;
-- license decision;
-- contribution/security policy when public collaboration is intended;
-- no secrets or committed runtime credentials;
+- reproducible installation/setup instructions;
+- explicit maturity status;
 - deterministic dependency management;
-- release/version history for production-facing systems;
-- canonical repository marker when predecessor repositories exist.
+- tests and permanent read-only CI;
+- security/release gates appropriate to the project;
+- no committed credentials;
+- license decision;
+- contribution/security policy where public collaboration is intended;
+- canonical repository marker when predecessor repositories exist;
+- release/version history for production-facing systems.
 
-## GitHub profile presentation
+## Public portfolio target
 
-The profile README should show no more than a small number of strong projects. Current public emphasis:
+A visitor should primarily see roughly **8–12 flagship/evidence projects**, currently centered on AgentShield, AICIS, Quantivis, ScrollLibrary, ScrollIntel, Apply Wingman, the EU innovation/AI/energy analytics work, AI Sustainability Dashboard and the AI Engineering publication/project.
 
-1. AgentShield
-2. AICIS
-3. Quantivis
-4. ScrollLibrary
-5. ScrollIntel
-6. Apply Wingman
-7. EU Innovation / AI / Energy Analytics
-8. AI Sustainability Dashboard
-9. AI Engineering publication/project
-
-HumanOS remains strategically important but is currently private, so it should be described as incubation rather than presented as a public repository link.
-
-## Controlled cleanup sequence
-
-1. Fix the profile presentation and portfolio map.
-2. Complete AgentShield v14 and freeze the evidence.
-3. Verify canonical candidates within each duplicate family.
-4. Add canonical/superseded READMEs before archiving predecessors.
-5. Normalize public repository names only after dependency/link checks.
-6. Harden Tier A CI, security, release and documentation standards.
-7. Move empty/obsolete public placeholders out of the public portfolio through archive/private decisions after verification.
-8. Build the currently empty `stanleymay20.github.io` only if it adds value beyond the GitHub profile; otherwise archive it rather than leaving an empty public shell.
-
-## Success target
-
-The account may retain 100 repositories internally, but a visitor should experience roughly **8–12 public flagship/evidence projects**, a small number of clearly labelled incubations/components, and no ambiguity about which repository is canonical for a product family.
+The account may retain substantial historical/internal repositories, but public navigation should make the canonical project for each family unambiguous.
