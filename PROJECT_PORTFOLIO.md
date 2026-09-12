@@ -51,11 +51,15 @@ Canonical identity is proven by shared Git history, not repository naming alone.
 
 ### ScrollLibrary — AI publishing OS
 
-- `scroll-wisdom-weave-d69aa349` — **FLAGSHIP / CANONICAL**.
-- `scroll-wisdom-weave` — **VERIFY-CONSOLIDATION**.
-- `scroll-wisdom-weave-370c9253` — **VERIFY-CONSOLIDATION**.
-- `scroll-wisdom-weave-94f4588f` — **VERIFY-CONSOLIDATION**.
-- `scroll-wisdom-weave-ffcd64d1` — **VERIFY-CONSOLIDATION**.
+- `scroll-wisdom-weave-d69aa349` — **FLAGSHIP / CANONICAL / LINEAGE RESOLVED**.
+- `scroll-wisdom-weave` — **HISTORICAL SNAPSHOT / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
+- `scroll-wisdom-weave-370c9253` — **HISTORICAL SNAPSHOT / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
+- `scroll-wisdom-weave-94f4588f` — **HISTORICAL SNAPSHOT / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
+- `scroll-wisdom-weave-ffcd64d1` — **HISTORICAL SNAPSHOT / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
+
+The decision is based on exact Git ancestry. The canonical repository directly contains each sibling's latest substantive product lineage: `24a637557197fd296a103b986b88e5930d3b830c` (evidence retrieval), `635c04a56544dbe6e73ec45c3111caf4cb3df154` (Instant Mastery/visual assessment), `7e75e379b07736458c2151c48dcbe09ca16b36d3` (Sell wizard repair), and `4faad571aad65fa2f38765014c46c9dbcd0f7e8c` plus `a21c6cfc65cf296d2f7cce4d020ab645cc155462` (Shopify/OAuth security lineage). The later sibling-only commits are repository-hygiene/environment-file cleanup rather than divergent product work.
+
+All four sibling READMEs now point development to the canonical repository. Canonical `LINEAGE.md` is proposed through protected PR #22 on exact head `1e72709b965c0ed2723574e32ddd9db095438948`; the repository's required checks must pass before that documentation change can merge. No sibling has been archived or deleted.
 
 ### ScrollIntel — intelligence/orchestration
 
