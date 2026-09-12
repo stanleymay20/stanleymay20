@@ -40,10 +40,14 @@ AgentShield belongs in **AI safety, agent security and runtime governance**, not
 
 ### Quantivis — decision intelligence
 
-- `quantisights-pro-c6abd242` — **FLAGSHIP / CANONICAL**.
-- `quantisights-pro` — **VERIFY-CONSOLIDATION**.
-- `quantisights-pro-e4e7e290` — **VERIFY-CONSOLIDATION**.
-- `quantisights-pro-ff2bbabf` — **VERIFY-CONSOLIDATION**.
+- `quantisights-pro-c6abd242` — **FLAGSHIP / CANONICAL / LINEAGE RESOLVED**.
+- `quantisights-pro` — **HISTORICAL PREDECESSOR / SUPERSEDED**.
+- `quantisights-pro-e4e7e290` — **HISTORICAL SNAPSHOT / SUPERSEDED FOR DEVELOPMENT**.
+- `quantisights-pro-ff2bbabf` — **HISTORICAL FEATURE/RESEARCH SNAPSHOT / PRESERVE / UNIQUE-WORK REVIEW OPEN**.
+
+Canonical identity is proven by shared Git history, not repository naming alone. The canonical repo directly contains predecessor commit `b799bbae7e3077818dad35698cbb65601581aee3` from `quantisights-pro`, May schema-fix commit `82e3dffad260e07ccdf58e4a9e545a9b5ce2803b` from `e4e7e290`, and July audit commit `28a6a08b80cebbe9a3250e2781eb6e743d1fdd37` from `ff2bbabf`.
+
+`ff2bbabf` is intentionally preserved because later branch-only work is not reachable from canonical history, including homepage live-trust commit `7a4948edf2f6c5d80a0f6f72580064377493efef` and the explicitly un-applied Phase 2 structured-ingestion design/migration proposal `74366d7b3eccee8633701e0ed658d76e0a17cfae`. See the canonical repository's `LINEAGE.md`; do not re-apply historical DB proposals without a fresh schema review.
 
 ### ScrollLibrary — AI publishing OS
 
@@ -66,8 +70,10 @@ ScrollIntel is **not VERIFIED**. The canonical repository's `SECURITY_CREDENTIAL
 
 ### Apply Wingman — career automation
 
-- `apply-wingman` — **FLAGSHIP / CANONICAL**.
-- `JobAutoPilot` — **VERIFY-CONSOLIDATION / PREDECESSOR CANDIDATE**.
+- `apply-wingman` — **FLAGSHIP / CANONICAL / LINEAGE RESOLVED**.
+- `JobAutoPilot` — **HISTORICAL PREDECESSOR / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
+
+The current `JobAutoPilot` tree contains only its historical README. Its reachable 2025 cleanup history does not contain recoverable application source: the misleadingly titled `afb0abdf510a4ae372acb4902c88a192c08acbd7` “Final full project restore” commit only removed `.gitignore`, LICENSE and `bfg.jar`, while the preceding safe-restore commit only added those cleanup artifacts. The active React/Supabase application and Playwright ATS worker therefore remain unambiguously in `apply-wingman`.
 
 ### Technical publication / data evidence
 
