@@ -33,10 +33,14 @@ AgentShield belongs in **AI safety, agent security and runtime governance**, not
 
 ### AICIS — decision intelligence / resilience
 
-- `aicis-divine-core-6d24171b` — **FLAGSHIP / CANONICAL**.
-- `AICIS-control` — **COMPONENT / VERIFY ROLE**.
-- `aicis-divine-core` — **VERIFY-CONSOLIDATION**.
-- `aicis-divine-core-b1d2f00f` — **VERIFY-CONSOLIDATION**.
+- `aicis-divine-core-6d24171b` — **FLAGSHIP / CANONICAL / LINEAGE RESOLVED**.
+- `aicis-divine-core` — **HISTORICAL PREDECESSOR / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
+- `aicis-divine-core-b1d2f00f` — **HISTORICAL SNAPSHOT / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
+- `AICIS-control` — **LEGACY INDEPENDENT TRADING PROTOTYPE / PRESERVE / SECURITY REMEDIATION OPEN**.
+
+The Divine Core decision is based on exact Git ancestry. The canonical repository directly contains predecessor head `24e20206e403cb4ed1544764acfbc7eb91fc2238` (Global Signals Engine) and May snapshot head `3a5a0ef65f4cf3eb8128ba59f60e2e1405b2b64a` (ML evaluation SLO observability/provenance). Canonical `LINEAGE.md` was merged through PR #29 after Security DB Behavioral Proof, Authentication Boundary Proof, CI and CodeQL all passed; merge commit `8c91173e27ba2aa615fbf85b9966c339bcb5c460`.
+
+`AICIS-control` is intentionally separate: it predates Divine Core, is a Python/Firebase-era cryptocurrency/exchange automation prototype, and its initial commit is not reachable from the maintained TypeScript/Supabase lineage. A 12 September 2026 review found hard-coded exchange credentials in its public branch tip. The current file has been sanitized to environment-variable loading, but provider-side rotation/revocation and historical secret review remain mandatory. Do not archive it or describe it as production-ready until its `SECURITY_REMEDIATION.md` closure steps are evidenced.
 
 ### Quantivis — decision intelligence
 
@@ -59,7 +63,7 @@ Canonical identity is proven by shared Git history, not repository naming alone.
 
 The decision is based on exact Git ancestry. The canonical repository directly contains each sibling's latest substantive product lineage: `24a637557197fd296a103b986b88e5930d3b830c` (evidence retrieval), `635c04a56544dbe6e73ec45c3111caf4cb3df154` (Instant Mastery/visual assessment), `7e75e379b07736458c2151c48dcbe09ca16b36d3` (Sell wizard repair), and `4faad571aad65fa2f38765014c46c9dbcd0f7e8c` plus `a21c6cfc65cf296d2f7cce4d020ab645cc155462` (Shopify/OAuth security lineage). The later sibling-only commits are repository-hygiene/environment-file cleanup rather than divergent product work.
 
-All four sibling READMEs now point development to the canonical repository. Canonical `LINEAGE.md` is proposed through protected PR #22 on exact head `1e72709b965c0ed2723574e32ddd9db095438948`; the repository's required checks must pass before that documentation change can merge. No sibling has been archived or deleted.
+All four sibling READMEs now point development to the canonical repository. Canonical `LINEAGE.md` is proposed through protected PR #22 on exact head `1e72709b965c0ed2723574e32ddd9db095438948`; its first run exposed a newly published xmldom dependency advisory and two stale real-E2E assertions. Those gates are being repaired on a separate controlled branch; PR #22 will not be merged until the permanent gates pass. No sibling has been archived or deleted.
 
 ### ScrollIntel — intelligence/orchestration
 
