@@ -62,6 +62,14 @@ The portfolio classification lives in [PROJECT_PORTFOLIO.md](PROJECT_PORTFOLIO.m
 - `ScrollIntel` and `scrollintel.` are confirmed **empty Git repositories** with no commit history; both are safe archive candidates. `scrollintel.` also has trailing-punctuation naming debt.
 - **Security closure remains open:** `SECURITY_CREDENTIAL_REMEDIATION.md` states that historical credential exposure must be assessed, affected credentials rotated/revoked where necessary, history searched, secret scanning rerun and closure evidence recorded before ScrollIntel may be treated as security-closed or production-certified.
 
+### Apply Wingman
+
+- `apply-wingman` — **CANONICAL / LINEAGE RESOLVED**.
+- `JobAutoPilot` — **HISTORICAL PREDECESSOR / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
+- The current predecessor tree contains only its historical README.
+- The 2025 commit `afb0abdf510a4ae372acb4902c88a192c08acbd7`, despite being titled “Final full project restore with all working code,” only removed `.gitignore`, LICENSE and `bfg.jar`; the prior safe-restore commit only added those cleanup artifacts.
+- No recoverable ATS/application source remains in reachable `JobAutoPilot` history, so the active React/Supabase/Playwright implementation is unambiguously `apply-wingman`.
+
 ## Active consolidation queue
 
 ### AgentShield
@@ -80,15 +88,22 @@ Still compare:
 - `aicis-divine-core-b1d2f00f`
 - `AICIS-control` — determine whether genuine control-plane component or overlapping workspace.
 
-### Quantivis
+### Quantivis — unique-work preservation review
 
-Canonical target: `quantisights-pro-c6abd242`.
+Canonical identity is resolved: `quantisights-pro-c6abd242` is the maintained repository and now contains `LINEAGE.md`.
 
-Still compare:
+Resolved predecessor evidence:
 
-- `quantisights-pro`
-- `quantisights-pro-e4e7e290`
-- `quantisights-pro-ff2bbabf`
+- `quantisights-pro` — historical predecessor. Canonical directly contains substantive March commit `b799bbae7e3077818dad35698cbb65601581aee3`.
+- `quantisights-pro-e4e7e290` — historical snapshot. Canonical directly contains substantive May commit `82e3dffad260e07ccdf58e4a9e545a9b5ce2803b`.
+- `quantisights-pro-ff2bbabf` — partially integrated historical feature/research snapshot. Canonical directly contains July audit commit `28a6a08b80cebbe9a3250e2781eb6e743d1fdd37`.
+
+Remaining Quantivis task is **not canonical selection**. It is a focused review of later `ff2bbabf` branch-only work before any archive decision. Confirm whether unique production-worthy work should be migrated or is superseded, especially:
+
+- `7a4948edf2f6c5d80a0f6f72580064377493efef` — homepage live-trust metrics work; not reachable from canonical history.
+- `74366d7b3eccee8633701e0ed658d76e0a17cfae` — Phase 2 structured-ingestion persistence design/migration proposal; not reachable from canonical history and explicitly **not applied** to production.
+
+Do not blindly re-apply the historical migration proposal to the current canonical backend. Reassess it against the present schema first.
 
 ### ScrollLibrary
 
@@ -100,12 +115,6 @@ Still compare:
 - `scroll-wisdom-weave-370c9253`
 - `scroll-wisdom-weave-94f4588f`
 - `scroll-wisdom-weave-ffcd64d1`
-
-### Apply Wingman
-
-Canonical: `apply-wingman`.
-
-Compare `JobAutoPilot`; preserve unique ATS-routing/application logic before deprecation.
 
 ### ScrollJustice
 
