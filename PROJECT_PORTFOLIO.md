@@ -55,7 +55,7 @@ Canonical identity is proven by shared Git history, not repository naming alone.
 
 ### ScrollLibrary — AI publishing OS
 
-- `scroll-wisdom-weave-d69aa349` — **FLAGSHIP / CANONICAL / LINEAGE RESOLVED**.
+- `scroll-wisdom-weave-d69aa349` — **FLAGSHIP / CANONICAL / LINEAGE RESOLVED / VERIFIED**.
 - `scroll-wisdom-weave` — **HISTORICAL SNAPSHOT / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
 - `scroll-wisdom-weave-370c9253` — **HISTORICAL SNAPSHOT / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
 - `scroll-wisdom-weave-94f4588f` — **HISTORICAL SNAPSHOT / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
@@ -63,7 +63,7 @@ Canonical identity is proven by shared Git history, not repository naming alone.
 
 The decision is based on exact Git ancestry. The canonical repository directly contains each sibling's latest substantive product lineage: `24a637557197fd296a103b986b88e5930d3b830c` (evidence retrieval), `635c04a56544dbe6e73ec45c3111caf4cb3df154` (Instant Mastery/visual assessment), `7e75e379b07736458c2151c48dcbe09ca16b36d3` (Sell wizard repair), and `4faad571aad65fa2f38765014c46c9dbcd0f7e8c` plus `a21c6cfc65cf296d2f7cce4d020ab645cc155462` (Shopify/OAuth security lineage). The later sibling-only commits are repository-hygiene/environment-file cleanup rather than divergent product work.
 
-All four sibling READMEs now point development to the canonical repository. Canonical `LINEAGE.md` is proposed through protected PR #22 on exact head `1e72709b965c0ed2723574e32ddd9db095438948`; its first run exposed a newly published xmldom dependency advisory and two stale real-E2E assertions. Those gates are being repaired on a separate controlled branch; PR #22 will not be merged until the permanent gates pass. No sibling has been archived or deleted.
+All four sibling READMEs point development to the canonical repository, and canonical `LINEAGE.md` is now merged. The first documentation PR (#22) was preserved and closed as superseded after its pre-repair checks exposed an xmldom dependency advisory and two stale real-reader E2E assertions. Controlled repair PR #23 fixed those issues and merged at `7c81c18fe6e7a4ebe9ac2eb157773742f64e93b9` only after CI, GA Real E2E, Dependency Review, EPUB Conformance and CodeQL all passed. The clean lineage successor PR #24 then passed the same five permanent gates and merged at `a28d304ae1818a598de76db403b591dc1a93b0c2`. The temporary write-enabled repair workflow removed itself before PR review. No sibling has been archived or deleted.
 
 ### ScrollIntel — intelligence/orchestration
 
