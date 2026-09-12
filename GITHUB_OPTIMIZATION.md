@@ -75,8 +75,17 @@ The portfolio classification lives in [PROJECT_PORTFOLIO.md](PROJECT_PORTFOLIO.m
 - `scroll-wisdom-weave`, `scroll-wisdom-weave-370c9253`, `scroll-wisdom-weave-94f4588f`, and `scroll-wisdom-weave-ffcd64d1` — **HISTORICAL SNAPSHOTS / SUPERSEDED / SAFE ARCHIVE CANDIDATES**.
 - Exact Git reachability proves the canonical repository already contains the siblings' latest substantive product lineages: `24a637557197fd296a103b986b88e5930d3b830c`, `635c04a56544dbe6e73ec45c3111caf4cb3df154`, `7e75e379b07736458c2151c48dcbe09ca16b36d3`, and `4faad571aad65fa2f38765014c46c9dbcd0f7e8c`, plus security commit `a21c6cfc65cf296d2f7cce4d020ab645cc155462`.
 - All four sibling READMEs now point development to the canonical repository; no sibling has been archived or deleted.
-- Canonical lineage documentation is in protected PR #22 (`docs/scrolllibrary-lineage-resolution`, head `1e72709b965c0ed2723574e32ddd9db095438948`). Its required checks must pass before merge.
+- Canonical lineage documentation is in protected PR #22. Its initial proof run exposed a newly published xmldom dependency advisory and two stale real-reader E2E assertions; those are being repaired separately rather than bypassed.
 - **LINEAGE RESOLVED does not mean VERIFIED.** ScrollLibrary quality/security/release status continues to depend on its permanent controlled gates.
+
+### AICIS Divine Core
+
+- `aicis-divine-core-6d24171b` — **CANONICAL / LINEAGE RESOLVED**.
+- `aicis-divine-core` — **HISTORICAL PREDECESSOR / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
+- `aicis-divine-core-b1d2f00f` — **HISTORICAL SNAPSHOT / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
+- Exact ancestry proves the canonical repository contains predecessor head `24e20206e403cb4ed1544764acfbc7eb91fc2238` and May snapshot head `3a5a0ef65f4cf3eb8128ba59f60e2e1405b2b64a`.
+- Canonical lineage documentation merged through PR #29 only after Security DB Behavioral Proof, Authentication Boundary Proof, CI and CodeQL all passed. Merge commit: `8c91173e27ba2aa615fbf85b9966c339bcb5c460`.
+- `AICIS-control` is **not** a modern control-plane component; it is a separate legacy Python/Firebase cryptocurrency/exchange trading prototype and remains preserved under an open credential-remediation gate.
 
 ## Active consolidation queue
 
@@ -85,16 +94,6 @@ The portfolio classification lives in [PROJECT_PORTFOLIO.md](PROJECT_PORTFOLIO.m
 Current repository identity: `demo-repo`.
 
 Do not rename or change the default branch while the controlled AgentShield experiment/evidence line remains active. Once frozen, integrate the controlled product/research lineages, preserve experiment evidence and replace the demo identity with AgentShield-specific metadata.
-
-### AICIS
-
-Canonical target: `aicis-divine-core-6d24171b`.
-
-Still compare:
-
-- `aicis-divine-core`
-- `aicis-divine-core-b1d2f00f`
-- `AICIS-control` — determine whether genuine control-plane component or overlapping workspace.
 
 ### Quantivis — unique-work preservation review
 
@@ -152,6 +151,24 @@ This is no longer a canonical-identification problem. The remaining work is secu
 8. record non-secret closure evidence.
 
 Do not mark ScrollIntel VERIFIED until this programme is closed.
+
+### AICIS-control credential closure
+
+`AICIS-control` is a legacy independent trading prototype, not modern Divine Core.
+
+A public-branch review on 12 September 2026 found hard-coded exchange API credentials in `aicis_trading.py`. The current branch tip has been sanitized to environment-variable loading and fail-closed handling, and the repository now contains `SECURITY_REMEDIATION.md`.
+
+Remaining mandatory work is provider-side and historical:
+
+1. inventory the affected exchange/provider credential classes without reproducing secret values;
+2. revoke/rotate every real credential that appeared in public Git history;
+3. use least-privilege replacement keys, with withdrawal disabled unless separately justified and IP restrictions where supported;
+4. verify replacement credentials live only in secret stores/untracked environments;
+5. scan the full repository history for additional secret-bearing files/values;
+6. consider history rewriting only after provider-side revocation;
+7. re-scan and record non-secret closure evidence.
+
+Do not archive the repository or call the remediation closed until provider-side revocation/rotation is evidenced.
 
 ## Remaining high-confidence shell / noise checks
 
@@ -223,4 +240,4 @@ Flagship/canonical repositories should converge on:
 
 A visitor should primarily see roughly **8–12 flagship/evidence projects**, currently centered on AgentShield, AICIS, Quantivis, ScrollLibrary, ScrollIntel, Apply Wingman, the EU innovation/AI/energy analytics work, AI Sustainability Dashboard and the AI Engineering publication/project.
 
-ScrollIntel may remain visible as a significant engineering project, but its portfolio presentation must clearly state that security hardening remains open until credential-remediation closure is proven.
+Security-hardened status must be evidence-based: neither ScrollIntel nor legacy `AICIS-control` should be described as security-closed while their explicit remediation gates remain open.
