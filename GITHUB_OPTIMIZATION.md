@@ -71,12 +71,14 @@ The portfolio classification lives in [PROJECT_PORTFOLIO.md](PROJECT_PORTFOLIO.m
 
 ### ScrollLibrary
 
-- `scroll-wisdom-weave-d69aa349` — **CANONICAL / LINEAGE RESOLVED**.
+- `scroll-wisdom-weave-d69aa349` — **CANONICAL / LINEAGE RESOLVED / VERIFIED**.
 - `scroll-wisdom-weave`, `scroll-wisdom-weave-370c9253`, `scroll-wisdom-weave-94f4588f`, and `scroll-wisdom-weave-ffcd64d1` — **HISTORICAL SNAPSHOTS / SUPERSEDED / SAFE ARCHIVE CANDIDATES**.
 - Exact Git reachability proves the canonical repository already contains the siblings' latest substantive product lineages: `24a637557197fd296a103b986b88e5930d3b830c`, `635c04a56544dbe6e73ec45c3111caf4cb3df154`, `7e75e379b07736458c2151c48dcbe09ca16b36d3`, and `4faad571aad65fa2f38765014c46c9dbcd0f7e8c`, plus security commit `a21c6cfc65cf296d2f7cce4d020ab645cc155462`.
 - All four sibling READMEs now point development to the canonical repository; no sibling has been archived or deleted.
-- Canonical lineage documentation is in protected PR #22. Its initial proof run exposed a newly published xmldom dependency advisory and two stale real-reader E2E assertions; those are being repaired separately rather than bypassed.
-- **LINEAGE RESOLVED does not mean VERIFIED.** ScrollLibrary quality/security/release status continues to depend on its permanent controlled gates.
+- Controlled repair PR #23 pinned patched `@xmldom/xmldom` 0.8.15 and corrected the two stale real-reader assertions; it merged at `7c81c18fe6e7a4ebe9ac2eb157773742f64e93b9` after CI, GA Real E2E, Dependency Review, EPUB Conformance and CodeQL all passed.
+- The temporary write-enabled repair workflow self-deleted before protected PR review.
+- Original lineage PR #22 was closed as superseded rather than force-rewritten. Clean successor PR #24 was rebuilt from repaired `main`, passed the same five permanent gates and merged at `a28d304ae1818a598de76db403b591dc1a93b0c2`.
+- ScrollLibrary therefore satisfies the portfolio definition of **VERIFIED** for the current controlled repository tree. No sibling has been archived or deleted.
 
 ### AICIS Divine Core
 
