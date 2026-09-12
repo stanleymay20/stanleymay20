@@ -58,8 +58,7 @@ The portfolio classification lives in [PROJECT_PORTFOLIO.md](PROJECT_PORTFOLIO.m
 - `scrollintel-ai-system` — **CANONICAL / LINEAGE RESOLVED / SECURITY HARDENING — NOT VERIFIED**.
 - `scroll-intel` — **HISTORICAL PREDECESSOR / SUPERSEDED / SAFE ARCHIVE CANDIDATE**.
 - The canonical repository contains the predecessor's exact substantive initial commit `06400f440697a4d63cf758e33197fc805be26145`, so the original backend/spec foundation is preserved in canonical Git history.
-- The predecessor has only that substantive initial commit plus a later documentation commit marking it superseded.
-- `ScrollIntel` and `scrollintel.` are confirmed **empty Git repositories** with no commit history; both are safe archive candidates. `scrollintel.` also has trailing-punctuation naming debt.
+- `ScrollIntel` and `scrollintel.` are confirmed **empty Git repositories** with no commit history; both are safe archive candidates.
 - **Security closure remains open:** `SECURITY_CREDENTIAL_REMEDIATION.md` states that historical credential exposure must be assessed, affected credentials rotated/revoked where necessary, history searched, secret scanning rerun and closure evidence recorded before ScrollIntel may be treated as security-closed or production-certified.
 
 ### Apply Wingman
@@ -69,6 +68,15 @@ The portfolio classification lives in [PROJECT_PORTFOLIO.md](PROJECT_PORTFOLIO.m
 - The current predecessor tree contains only its historical README.
 - The 2025 commit `afb0abdf510a4ae372acb4902c88a192c08acbd7`, despite being titled “Final full project restore with all working code,” only removed `.gitignore`, LICENSE and `bfg.jar`; the prior safe-restore commit only added those cleanup artifacts.
 - No recoverable ATS/application source remains in reachable `JobAutoPilot` history, so the active React/Supabase/Playwright implementation is unambiguously `apply-wingman`.
+
+### ScrollLibrary
+
+- `scroll-wisdom-weave-d69aa349` — **CANONICAL / LINEAGE RESOLVED**.
+- `scroll-wisdom-weave`, `scroll-wisdom-weave-370c9253`, `scroll-wisdom-weave-94f4588f`, and `scroll-wisdom-weave-ffcd64d1` — **HISTORICAL SNAPSHOTS / SUPERSEDED / SAFE ARCHIVE CANDIDATES**.
+- Exact Git reachability proves the canonical repository already contains the siblings' latest substantive product lineages: `24a637557197fd296a103b986b88e5930d3b830c`, `635c04a56544dbe6e73ec45c3111caf4cb3df154`, `7e75e379b07736458c2151c48dcbe09ca16b36d3`, and `4faad571aad65fa2f38765014c46c9dbcd0f7e8c`, plus security commit `a21c6cfc65cf296d2f7cce4d020ab645cc155462`.
+- All four sibling READMEs now point development to the canonical repository; no sibling has been archived or deleted.
+- Canonical lineage documentation is in protected PR #22 (`docs/scrolllibrary-lineage-resolution`, head `1e72709b965c0ed2723574e32ddd9db095438948`). Its required checks must pass before merge.
+- **LINEAGE RESOLVED does not mean VERIFIED.** ScrollLibrary quality/security/release status continues to depend on its permanent controlled gates.
 
 ## Active consolidation queue
 
@@ -90,7 +98,7 @@ Still compare:
 
 ### Quantivis — unique-work preservation review
 
-Canonical identity is resolved: `quantisights-pro-c6abd242` is the maintained repository and now contains `LINEAGE.md`.
+Canonical identity is resolved: `quantisights-pro-c6abd242` is the maintained repository and contains `LINEAGE.md`.
 
 Resolved predecessor evidence:
 
@@ -98,23 +106,12 @@ Resolved predecessor evidence:
 - `quantisights-pro-e4e7e290` — historical snapshot. Canonical directly contains substantive May commit `82e3dffad260e07ccdf58e4a9e545a9b5ce2803b`.
 - `quantisights-pro-ff2bbabf` — partially integrated historical feature/research snapshot. Canonical directly contains July audit commit `28a6a08b80cebbe9a3250e2781eb6e743d1fdd37`.
 
-Remaining Quantivis task is **not canonical selection**. It is a focused review of later `ff2bbabf` branch-only work before any archive decision. Confirm whether unique production-worthy work should be migrated or is superseded, especially:
+Remaining Quantivis task is a focused review of later `ff2bbabf` branch-only work before any archive decision, especially:
 
 - `7a4948edf2f6c5d80a0f6f72580064377493efef` — homepage live-trust metrics work; not reachable from canonical history.
 - `74366d7b3eccee8633701e0ed658d76e0a17cfae` — Phase 2 structured-ingestion persistence design/migration proposal; not reachable from canonical history and explicitly **not applied** to production.
 
 Do not blindly re-apply the historical migration proposal to the current canonical backend. Reassess it against the present schema first.
-
-### ScrollLibrary
-
-Canonical target: `scroll-wisdom-weave-d69aa349`.
-
-Still compare:
-
-- `scroll-wisdom-weave`
-- `scroll-wisdom-weave-370c9253`
-- `scroll-wisdom-weave-94f4588f`
-- `scroll-wisdom-weave-ffcd64d1`
 
 ### ScrollJustice
 
