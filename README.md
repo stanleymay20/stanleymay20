@@ -1,82 +1,54 @@
 # Stanley Osei-Wusu
 
-**AI Engineering · Data Science · Decision Intelligence · Agent Security**
+**Applied AI Engineering · AI Systems · Decision Intelligence · Agent Security**
 
-I build AI and data systems that turn fragmented information into **validated evidence, forecasts, controlled actions and decision support**. My work spans agent security, decision intelligence, forecasting, data-quality engineering, multi-agent systems and production-oriented AI applications.
+I build production-oriented AI and data systems that turn messy information into **validated evidence, forecasts, controlled actions and decision support**. My work spans LLM/agent workflows, data-quality engineering, forecasting, runtime security, multi-agent systems and full-stack AI products.
 
 > **Engineering principle:** make the evidence visible before making the recommendation — and make authorization explicit before allowing an agent to act.
 
-[Portfolio architecture](PROJECT_PORTFOLIO.md) · [Canonical repository registry](CANONICAL_REPOSITORY_REGISTRY.md) · [Optimization programme](GITHUB_OPTIMIZATION.md) · [Development/data evidence](DEVELOPMENT_DATA_PORTFOLIO.md)
+## What I build
 
-## Flagship systems
+- **AI & agent systems:** structured LLM workflows, tool use, evaluation loops, adversarial testing, guardrails and fail-closed execution.
+- **Data & ML systems:** ingestion, schema/metric inference, validation, forecasting, uncertainty handling and reproducible analysis.
+- **Production engineering:** Python, TypeScript, React, PostgreSQL/Supabase, APIs, Row-Level Security, CI/CD, automated testing and security gates.
 
-### [AgentShield — AI Agent Security & Runtime Governance](https://github.com/stanleymay20/demo-repo/tree/agentshield-platform-v1)
-Layered security boundary for AI-agent systems. AgentShield separates prompt-injection detection from authorization and execution control, combining provenance, server-owned tool manifests, least-privilege capability grants, integrity binding, replay resistance and fail-closed ALLOW / REVIEW / BLOCK policy.
+## Selected engineering systems
 
-**Current evidence:** controlled experiment lineage · preserved negative results · explicit threat model · adversarial scenario harness · 71/71 platform tests passing after grant-lifecycle integration repair
+| Project | What it demonstrates |
+|---|---|
+| **[AgentShield](https://github.com/stanleymay20/demo-repo/tree/agentshield-platform-v1)** | AI-agent runtime security: provenance, least-privilege capability grants, integrity binding, replay resistance, adversarial scenario testing and ALLOW / REVIEW / BLOCK policy. |
+| **[Quantivis](https://github.com/stanleymay20/quantisights-pro-c6abd242)** | Multi-tenant decision intelligence: operational-data ingestion, validation, quality scoring, forecasting, PostgreSQL/Supabase workflows and release controls. |
+| **[AICIS](https://github.com/stanleymay20/aicis-divine-core-6d24171b)** | Resilience and risk decision support: realtime architecture, evidence provenance, RLS, server-side privileged workflows and human-reviewed decisions. |
+| **[ScrollLibrary](https://github.com/stanleymay20/scroll-wisdom-weave-d69aa349)** | AI-assisted publishing OS with controlled multi-chapter workflows, E2E validation, dependency/security gates and publication-oriented automation. |
+| **[Apply Wingman](https://github.com/stanleymay20/apply-wingman)** | Career automation platform with ATS-aware routing, structured application workflows and React/Supabase/Playwright engineering. |
 
-### [AICIS — Resilience & Risk Decision Support](https://github.com/stanleymay20/aicis-divine-core-6d24171b)
-Applied decision-intelligence platform exploring evidence provenance, early warning, forecasting and human-reviewed decision support across socioeconomic, climate, infrastructure and institutional risks.
+## Data science & analytical evidence
 
-**Stack:** React · TypeScript · PostgreSQL/Supabase · realtime architecture · RLS · Edge Functions · governance workflows
+- **[EU Innovation, AI & Energy Analytics](https://github.com/stanleymay20/forecasting-system)** — Eurostat/OECD/World Bank integration, reproducible quality checks and multi-country analytical workflows.
+- **[AI Sustainability Dashboard](https://github.com/stanleymay20/ai_sustainability_dashboard)** — environmental APIs, PM2.5 time-series analysis, forecasting, geospatial exploration and defensive data handling.
+- **[AI Engineering — From Foundations to Production Systems](https://github.com/stanleymay20/AI-ENGINEERING-From-Foundations-to-Production-Systems)** — long-form technical work on AI architecture and production engineering.
 
-### [Quantivis — Decision Intelligence Platform](https://github.com/stanleymay20/quantisights-pro-c6abd242)
-Production-oriented platform for ingesting messy operational data, validating it and transforming it into analytical outputs, forecasts and structured decision support.
+## Engineering approach
 
-**Stack:** PostgreSQL · Supabase · schema inference · ingestion · validation · quality scoring · forecasting · multi-tenant workflows · CI/release controls
+I prefer systems that are **observable, testable and explicit about uncertainty**. In particular:
 
-### [ScrollLibrary — AI Publishing OS](https://github.com/stanleymay20/scroll-wisdom-weave-d69aa349)
-AI-assisted publishing platform for structured manuscript workflows, controlled multi-chapter editing and publication-oriented content operations.
+- evidence before recommendation;
+- evaluation before confidence;
+- authorization before action;
+- least privilege and fail-closed security boundaries;
+- reproducible experiments and preserved negative results;
+- human review where automated authority would be inappropriate.
 
-### [ScrollIntel — AI Intelligence System](https://github.com/stanleymay20/scrollintel-ai-system)
-Large AI-system repository focused on intelligence workflows, orchestration and analytical automation. It is being evaluated as the canonical ScrollIntel repository while older names are consolidated.
+## Current focus
 
-### [Apply Wingman — Career Automation](https://github.com/stanleymay20/apply-wingman)
-Application workflow platform for job discovery, ATS-aware routing and structured career automation.
+I am strengthening production AI engineering across **LLM/agent workflows, evaluation, multi-agent systems, decision intelligence, security, observability and deployment discipline** while completing postgraduate study in Data Science, AI & Digital Business and International Business Management.
 
-## Data science & development evidence
+## Portfolio map
 
-### [EU Innovation, AI & Energy Analytics](https://github.com/stanleymay20/forecasting-system)
-Reproducible multi-source analysis integrating Eurostat, OECD and World Bank indicators across European economies to study AI adoption, innovation capacity, renewable-energy transition and economic context.
+For repository lineage, canonical project identities and the controlled cleanup programme:
 
-### [AI Sustainability Dashboard](https://github.com/stanleymay20/ai_sustainability_dashboard)
-Environmental analytics application combining external APIs, PM2.5 time-series analysis, forecasting, geospatial exploration, carbon-intensity data and EV-infrastructure discovery.
-
-### [AI Engineering — From Foundations to Production Systems](https://github.com/stanleymay20/AI-ENGINEERING-From-Foundations-to-Production-Systems)
-Long-form technical project documenting AI-engineering concepts, architecture and production-oriented system design.
-
-## Portfolio architecture
-
-The wider repository portfolio is intentionally separated into four levels:
-
-**Tier A — Flagship / canonical systems**  
-AgentShield · AICIS · Quantivis · ScrollLibrary · ScrollIntel · Apply Wingman · selected data/AI evidence
-
-**Tier B — Strategic incubation**  
-HumanOS · AI studios · payments · ScrollCloud · ScrollJustice · health · education · enterprise automation
-
-**Tier C — Academic / technical evidence**  
-Data science · machine learning · visualisation · NLP · research and coursework
-
-**Tier D — Consolidation / legacy / reference**  
-Generated-name duplicates · predecessors · placeholders · tutorials · forks · superseded experiments
-
-The full 100-repository classification and safe consolidation rules are maintained in [PROJECT_PORTFOLIO.md](PROJECT_PORTFOLIO.md).
-
-## Current engineering focus
-
-- secure AI-agent execution and runtime governance;
-- evidence provenance, uncertainty and decision intelligence;
-- high-integrity evaluation and reproducible ML experimentation;
-- data-quality engineering and multi-source analytics;
-- production hardening, CI, release controls and security gates;
-- human-reviewed AI systems for economic, environmental and institutional decisions.
-
-## Education
-
-**MSc Data Science, AI & Digital Business — GISMA University of Applied Sciences**  
-Postgraduate study alongside applied AI, data and product-engineering work.
+[Portfolio architecture](PROJECT_PORTFOLIO.md) · [Canonical repository registry](CANONICAL_REPOSITORY_REGISTRY.md) · [GitHub optimization programme](GITHUB_OPTIMIZATION.md) · [Development/data evidence](DEVELOPMENT_DATA_PORTFOLIO.md)
 
 ---
 
-I am especially interested in work where **rigorous evidence, responsible AI and practical engineering** can support better decisions without hiding uncertainty or weakening security boundaries.
+**Based in Germany · Building AI systems with evidence, security and production discipline.**
