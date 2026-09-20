@@ -16,7 +16,7 @@ I build production-oriented AI and data systems that turn messy information into
 
 | Project | What it demonstrates |
 |---|---|
-| **[AgentShield](https://github.com/stanleymay20/demo-repo/tree/agentshield-platform-v1)** | AI-agent runtime security: provenance, least-privilege capability grants, integrity binding, replay resistance, adversarial scenario testing and ALLOW / REVIEW / BLOCK policy. |
+| **[AgentShield](https://github.com/stanleymay20/demo-repo)** | AI-agent runtime security: provenance, least-privilege capability grants, integrity binding, replay resistance, adversarial scenario testing and ALLOW / REVIEW / BLOCK policy. |
 | **[Quantivis](https://github.com/stanleymay20/quantisights-pro-c6abd242)** | Multi-tenant decision intelligence: operational-data ingestion, validation, quality scoring, forecasting, PostgreSQL/Supabase workflows and release controls. |
 | **[AICIS](https://github.com/stanleymay20/aicis-divine-core-6d24171b)** | Resilience and risk decision support: realtime architecture, evidence provenance, RLS, server-side privileged workflows and human-reviewed decisions. |
 | **[ScrollLibrary](https://github.com/stanleymay20/scroll-wisdom-weave-d69aa349)** | AI-assisted publishing OS with controlled multi-chapter workflows, E2E validation, dependency/security gates and publication-oriented automation. |
