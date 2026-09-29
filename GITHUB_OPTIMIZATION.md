@@ -6,6 +6,28 @@ The objective is not to delete history. It is to make the account read like a co
 
 The portfolio classification lives in [PROJECT_PORTFOLIO.md](PROJECT_PORTFOLIO.md). This file is the **live cleanup ledger** and emphasizes unresolved work rather than repeatedly re-listing settled families.
 
+## Recruiter-facing pass — 2026-09-29
+
+Completed in this pass:
+
+- profile README reorganized around a 30-second recruiter scan, flagship engineering evidence and the principle of deterministic controls around probabilistic AI;
+- AgentShield, AICIS and Quantivis READMEs now expose a recruiter quick scan near the top;
+- `Data-Integrartion` is clearly labeled a legacy placeholder rather than current engineering evidence;
+- `Data-Visualization` is labeled academic/historical evidence and points to stronger reproducible analytics repositories;
+- `Freecryptocurrency` is labeled legacy/misnamed because its current tree contains unrelated historical school-dashboard/deployment material rather than a coherent current cryptocurrency product;
+- already-resolved ScrollLibrary, AICIS, Quantivis and Apply Wingman predecessor READMEs were checked and already redirect visitors to their canonical repositories.
+
+Remaining recruiter-surface work:
+
+1. populate GitHub repository-card descriptions and topics for flagship repositories;
+2. pin the strongest 6 repositories in recruiter order;
+3. verify the public availability of every profile README link, especially the AI Engineering publication repository;
+4. rename legacy/generated repository identities only when their controlled lineage/deployment constraints permit it;
+5. archive or privatize high-confidence shells only after the existing history/reference checks are complete;
+6. correct typo-heavy repository identities such as `machine-learniing` and `Data-Integrartion` when rename impact has been checked.
+
+The connected GitHub tooling used for this pass can edit repository content but does not expose repository-settings mutations for descriptions, topics, pinning or renames, so those settings remain open rather than being silently approximated.
+
 ## Operating rules
 
 1. Do not delete a repository because its name looks duplicated.
